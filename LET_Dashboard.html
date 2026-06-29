@@ -134,7 +134,7 @@ tr:hover td{background:#F0F7FF}
       <div style="font-size:11px;opacity:.8;margin-top:2px">Global Lab Planner · Intel Lab Efficiency Team · All filters apply simultaneously to all charts</div>
     </div>
   </div>
-  <div class="meta">Refreshed: 2026-06-29 16:54<br><span id="hdr-count"></span></div>
+  <div class="meta">Refreshed: 2026-06-29 16:59<br><span id="hdr-count"></span></div>
 </header>
 
 <div class="layout">
@@ -797,7 +797,7 @@ tr:hover td{background:#F0F7FF}
   </div>
 
   <div style="text-align:center;padding:16px;font-size:11px;color:var(--gray)">
-    Intel LET Lab Space Dashboard · 2026-06-29 16:54 · Data: SharePoint LET Lab Space Request/Release
+    Intel LET Lab Space Dashboard · 2026-06-29 16:59 · Data: SharePoint LET Lab Space Request/Release
   </div>
 </main>
 </div>
@@ -808,6 +808,13 @@ window.__LET_DATA__ = [{"id": "1473", "title": "", "status_raw": "Closed: withdr
 
 const COST_SQFT  = 692;
 const COLOR_MAP  = {"Reuse": "#0068B5", "Lab Return": "#00C7FD", "Capital/CRE": "#FF8C00", "Withdrawn": "#9CA3AF", "Denied/Unsupportable": "#CC3333", "Open/Pending": "#00A86B", "Hold": "#F59E0B", "Other Closed": "#AAAAAA"};
+
+// Sets of known/listed filter values. If a row's value is NOT in these sets,
+// it has no checkbox and the filter should bypass it (rather than drop it).
+const KNOWN_BUS      = new Set(["AXG", "AXG/SATG", "Altera", "CCG", "CS", "CSO/EGI", "CSO/NGS", "CSV", "CTO&AI", "CVCG", "Corporate M&A", "DCAI", "DCAI/AXG", "DCAI/DPEA", "DCAI/PSG", "DCG", "DCG/DAIG", "DEG", "DEG/FST", "DEG/IPG", "DEG/MPE", "DEG/iVE", "DPG", "EGI", "FINANCE", "FMCS", "FMSC", "FS", "FTD", "HR", "IAGS", "ICG", "IFS", "IL SG", "IOTG", "IPSG/MPE", "IPSG/iVE", "IT", "Intel Foundry", "Intel Labs", "Intel Sports", "LegacyBiz", "M&O", "MSO", "Mobileye", "NEX", "NEX/CG", "NEX/IOTG", "NEX/NPG", "NGS  - Wireless & 5G", "NSG", "NSG - Memory", "NTG", "OCTO", "Other", "PEG", "PEG/ICDG", "PEG/IPG", "PEG/MDO", "PEG/MVE", "PEG/PDG", "PEG/SVE", "PSG", "PSG (Altera)", "REWS", "SAI", "SATG", "SEG", "SEG/iVE", "SIG ISCP grp", "SIG MPE", "SIG VE", "SIG WI", "SMG", "SPE", "SSG", "TBD", "TD", "TMG"]);
+const KNOWN_PLANNERS = new Set(["Babak", "Christian", "Chrystle", "Dave", "Dave D", "Dave/Christian", "David", "Dolezsar", "Dolezsar / Yariv", "Dolezsar/Yariv", "Essie", "Essie & Hugo", "Essie And Franco", "Essie Mohaddess", "F Robinson", "Franco", "Hugo", "Hugo & Franco", "Hugo Rojas", "Jannacy", "Joe", "Joe & Rick", "John/Joe", "Jordi", "Joseph", "Kevin Mccart", "Lee Jones", "Liana", "Meg", "Nancy", "Pablo", "Rick", "Rick And Christian", "Rick Spisak", "Rick/Christian", "Rick/Joe", "Scott", "Scott Samuels", "Scott/Dave", "Shasi", "Srini", "Srinivas", "Steve", "Tadman/Dolezsar", "Yariv", "Yariv & Kevin", "Yariv Lahat", "Yariv/Kevin", "Yuriv"]);
+const KNOWN_SITES    = new Set(["3322", "ADC", "AFO", "AMC", "AMC10", "AMP", "AMP1", "AN", "AN4", "ANVC", "APR", "APR1", "ART1", "AZ", "Allentown", "Aloha", "Altera bui", "Aperia 1", "Austin Tex", "BA", "BBD1", "BCD", "BDS1", "BGA", "BGA1", "BLR1", "Bangalore", "Bowers", "CA", "CH", "CH11", "CH2", "CH3", "CH4", "CH6", "CH7", "CR", "CR1", "CR3", "CSN", "CSN1", "CSR1", "Campeon", "Campeon, M", "Chandler", "Chengdu", "Cordoba, A", "DATA", "DCG", "DIST", "DNV1", "DY", "ECO", "ECO1", "ECO3", "ECO4", "EMB", "EMB1", "ENGG", "FARM", "FC", "FL015", "FLK1", "FM", "FM1", "FM2", "FM4", "FM5", "FM6", "FM7", "FORT", "FS114", "FSO15", "Folsom", "GDC", "GK", "GLS", "GND2", "GRN2", "GTC", "GTC1", "Galati - R", "Galati, Ro", "Germany, M", "Guadalajar", "HD", "HD2", "HER1", "HF", "HF1", "HF2", "HF3", "HGT1", "HYD", "HYDERABAD", "Hawthorn F", "Hyderabad", "Hyderabad,", "IBC", "IBR", "IDC", "IDC10", "IDC11", "IDC12", "IDC2", "IDC3", "IDC4", "IDC6", "IDC7", "IDC9", "IGE", "IGK", "IGK1", "IGK2", "IGK3", "IGK4", "IGK5", "IGK6", "IGK7", "IKL", "IMC", "IMU", "IN", "INV1", "IR1", "IR4", "IR6", "IS", "ISH", "ISK", "ISO6", "ISR", "ISW", "IT", "ITK", "ITK3", "Intel Shan", "JER", "JER1", "JER2", "JF", "JF1", "JF2", "JF3", "JF4", "JF4223", "JF5", "JFCC", "JFS1", "Jerusalem", "KM2", "KM3", "KM6", "Karlsruhe", "LAB", "LABS", "LCF1", "LCF4", "LIL", "LIL1", "LINZ", "Longmont S", "MA", "MAT1", "MGW1", "MI", "MIL", "Mission", "Mission Ca", "Munich", "NEW", "NGS", "NGS1", "NM", "NO", "NONE", "OC2", "OC8", "OF", "OR", "Oregon", "PFZ1", "PG", "PG12", "PG15", "PG16", "PG17", "PG7", "PRC", "PTK", "PTK1", "PTK7", "Penang", "RA", "RA1", "RA2", "RA3", "RA4", "RHM1", "RICA", "RIO", "RM", "RNB", "ROOM", "RPT", "RPT1", "RR", "RR5", "RS5", "RYC", "RYC1", "Romania", "Ronler Acr", "SAF2", "SAN", "SC", "SC1", "SC11", "SC12", "SC2", "SC7", "SC9", "SCS1", "SDW1", "SEO", "SHZ", "SHZ1", "SHZ2", "SHZ8", "SIE1", "SJ14", "SJ2", "SJI", "SJI1", "SJI2", "SJI3", "SJI4", "SKC", "SKC1", "SNN", "SQ", "SRR", "SRR1", "SRR2", "SRR3", "SRR4", "SSR4", "ST", "Santa Clar", "TEC1", "TECH1", "TGV1", "TPK1", "TW", "TWN", "TX", "Tokyo", "UBP1", "US", "VBP", "VBP1", "VEN1", "VNAT", "Villach", "WES1", "WORK", "WR", "YTC", "ZJG", "ZJG1", "ZPN", "ZPN1", "ZPN3", "ZZ", "ZZ1", "ZZ2"]);
+const KNOWN_REGIONS  = new Set(["AMER", "APAC", "EMEA", "Unknown"]);
 
 const charts = {};
 let sortKey = 'date_req', sortDir = -1;
@@ -976,10 +983,13 @@ function applyFilters() {
     const q = r.quarter || r.quarter_close;
     if (f.quarters.length < 4 && q && !f.quarters.includes(q)) return false;
     if (f.statuses.length && !f.statuses.includes(r.status)) return false;
-    if (f.bus.length     && !f.bus.includes(r.bu))           return false;
-    if (f.planners.length && !f.planners.includes(r.planner)) return false;
-    if (f.sites.length   && !f.sites.includes(r.site_to))    return false;
-    if (f.regions.length && !f.regions.includes(r.region || 'Unknown')) return false;
+    // For BU/Planner/Site: only filter rows whose value is one of the listed
+    // checkboxes. Rows with values like '', 'Unassigned', 'NA' (which have no
+    // checkbox) bypass the filter so they don't silently disappear.
+    if (f.bus.length      && KNOWN_BUS.has(r.bu)              && !f.bus.includes(r.bu))           return false;
+    if (f.planners.length && KNOWN_PLANNERS.has(r.planner)    && !f.planners.includes(r.planner)) return false;
+    if (f.sites.length    && KNOWN_SITES.has(r.site_to)       && !f.sites.includes(r.site_to))    return false;
+    if (f.regions.length  && !f.regions.includes(r.region || 'Unknown')) return false;
     if (cpaMode === 'yes' && !r.cpa) return false;
     if (cpaMode === 'no'  &&  r.cpa) return false;
     return true;
