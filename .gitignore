@@ -1,0 +1,15 @@
+# Secrets and credentials — NEVER commit these
+.msal_token_cache.bin
+azure_config.txt
+*.bin
+*.pyc
+__pycache__/
+
+# Large data files that are rebuilt on every run
+let_data_cache.json
+let_data_cache_excel.json
+refresh_log.txt
+
+# Local-only temp files
+_debug_*.py
+_cost_audit.py
