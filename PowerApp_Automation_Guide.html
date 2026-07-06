@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LET Power App & Automation Guide</title>
+<style>
+body{font-family:Calibri,sans-serif;font-size:13px;max-width:1100px;margin:30px auto;color:#222}
+h1{background:#1F3864;color:white;padding:15px;border-radius:4px}
+h2{background:#2E75B6;color:white;padding:8px 12px;border-radius:3px;margin-top:30px}
+h3{color:#1F3864;border-bottom:2px solid #2E75B6;padding-bottom:4px}
+table{border-collapse:collapse;width:100%;margin:10px 0}
+th{background:#2E75B6;color:white;padding:8px;text-align:left}
+td{padding:7px 8px;border:1px solid #ccc}
+tr:nth-child(even){background:#f0f4ff}
+code{background:#f0f0f0;padding:2px 6px;border-radius:3px;font-family:Consolas,monospace;font-size:12px}
+.warn{background:#FFF2CC;border-left:4px solid #FFB900;padding:8px 12px;margin:10px 0}
+.ok{background:#E2EFDA;border-left:4px solid #375623;padding:8px 12px;margin:10px 0}
+.todo{color:#C00000;font-weight:bold}
+.done{color:#375623;font-weight:bold}
+ul li{margin:4px 0}
+</style>
+</head>
+<body>
+<h1>LET Power App &amp; Automation Guide</h1>
+<p><b>Owner:</b> Yariv Lahat, Global Lab Planner, Intel CS/GLP &nbsp;|&nbsp; <b>Last Updated:</b> June 2026</p>
+
+<h2>SharePoint Lists</h2>
+<table>
+<tr><th>List Name</th><th>ID</th><th>Purpose</th></tr>
+<tr><td>LET Lab Space Request/Release</td><td><code>781b2a30-b52a-4eda-b558-3f79056885a9</code></td><td>Main request list</td></tr>
+<tr><td>LET BU BUReps List VL</td><td><code>5d42a339-5ebe-4232-8d02-6899678cac60</code></td><td>BU rep/delegate lookup</td></tr>
+<tr><td>LET Request Status VL</td><td><code>4ee69beb-925f-4df7-9263-83ca2bf01a79</code></td><td>Status values</td></tr>
+<tr><td>LET Types VL</td><td><code>72dcaff5-9736-4692-a1c4-9e8deb1fb38a</code></td><td>Request type values</td></tr>
+</table>
+
+<h2>How to Open Power App Editor</h2>
+<p>SharePoint List &rarr; <b>Integrate</b> &rarr; <b>Power Apps</b> &rarr; <b>Customize forms</b><br>
+Do NOT use make.powerapps.com &ldquo;My Apps&rdquo; &mdash; the form only appears via the SharePoint list.</p>
+
+<h2>New SharePoint Columns Added</h2>
+<table>
+<tr><th>Column Name</th><th>Type</th><th>Purpose</th></tr>
+<tr><td><code>LETClassification</code></td><td>Choice</td><td>Net Zero / Net Growth / Yet to be Defined</td></tr>
+<tr><td><code>WorkflowStage</code></td><td>Text</td><td>Automation pipeline stage (future use)</td></tr>
+<tr><td><code>BURepApprovalStatus</code></td><td>Choice</td><td>Pending / Approved / Rejected / Overridden</td></tr>
+<tr><td><code>BURepApproverEmail</code></td><td>Text</td><td>Email of rep who approved/rejected</td></tr>
+<tr><td><code>BURepApprovalDate</code></td><td>Date</td><td>Date of approval/rejection</td></tr>
+<tr><td><code>OverrideBURepApproval</code></td><td>Yes/No</td><td>Admin override flag</td></tr>
+<tr><td><code>NetGrowthEmailSent</code></td><td>Yes/No</td><td>Prevents duplicate Net Growth emails</td></tr>
+</table>
+
+<h2>Power App Customizations</h2>
+
+<h3>1. LET Classification Dropdown</h3>
+<p>Control: <code>Dropdown1</code> inside <code>LETClassificationDataCard</code></p>
+<table>
+<tr><th>Property</th><th>Value</th></tr>
+<tr><td>Items</td><td><code>Choices([@'LET Lab Space Request/Release'].LETClassification)</code></td></tr>
+<tr><td>Default</td><td><code>ThisItem.LETClassification.Value</code></td></tr>
+<tr><td>DisplayMode</td><td><code>If(User().Email = "yariv.lahat@intel.com", DisplayMode.Edit, DisplayMode.View)</code></td></tr>
+<tr><td><b>DataCard Update</b></td><td><code>{Value: Dropdown1.Selected.Value}</code></td></tr>
+</table>
+<div class="warn">&#9888; Choice fields MUST use <code>{Value: ...}</code> record format in the DataCard Update property. Plain text causes silent save failures with no error shown.</div>
+
+<h3>2. Save Button BU Rep Gating</h3>
+<p>Both save buttons (SaveButton1 and Button2) restrict saving to the mapped BU rep/delegate or yariv.lahat@intel.com.</p>
+
+<h2>BU Reps List Structure</h2>
+<table>
+<tr><th>Column</th><th>Purpose</th></tr>
+<tr><td><code>field_1</code></td><td>BU SuperGroup name (matches field_7 in main list)</td></tr>
+<tr><td><code>NextLevelScope</code></td><td>Sub-group &mdash; <b>blank = catchall rep for entire BU</b></td></tr>
+<tr><td><code>RepEmails</code></td><td>Rep email address</td></tr>
+<tr><td><code>DelegateEmail</code></td><td>Delegate email(s), semicolon separated</td></tr>
+</table>
+<div class="ok">&#10003; <b>Catchall logic:</b> Kevin McCart (<code>kevin.mccart@intel.com</code>, ID=59) has blank NextLevelScope = single POC for all SPE requests. If all reps have a NextLevelScope value, ALL receive the approval request (e.g., CEG).</div>
+
+<h2>Power Automate Flows</h2>
+
+<h3>Flow 1: LET - BU Rep Approval v2 (Automatic) &#10003;</h3>
+<p><b>Trigger:</b> When item is <b>created</b> &nbsp;|&nbsp; <b>Purpose:</b> Auto-start BU rep approval on new request</p>
+<div class="ok">&#10003; Rebuilt clean June 2026 with correct Filter array catchall logic.</div>
+<p><b>Structure:</b></p>
+<ol>
+<li>Trigger (item created on main LET list)</li>
+<li><b>Get item</b> &rarr; main LET list &rarr; ID from <code>triggerBody()?['ID']</code></li>
+<li><b>Get items</b> &rarr; BU Reps list &rarr; filter: <code>field_1 eq '[Get item field_7]'</code></li>
+<li><b>Filter array</b> &rarr; finds catchall rep: <code>and(empty(item()?['NextLevelScope']),equals(item()?['field_1'],outputs('Get_item')?['body/field_7']))</code></li>
+<li><b>Condition:</b> <code>length(body('Filter_array')) &gt; 0</code>
+<ul>
+<li><b>TRUE</b> (catchall exists): Send approval to <code>first(body('Filter_array'))?['RepEmails']</code> &rarr; Update item on response</li>
+<li><b>FALSE</b> (no catchall): Apply to each all reps &rarr; Send approval to each &rarr; Update item on response</li>
+</ul>
+</li>
+</ol>
+<p><b>Update item fields on approval:</b> BURepApprovalStatus, BURepApproverEmail, BURepApprovalDate (<code>utcNow('yyyy-MM-dd')</code>), WorkflowStage</p>
+
+<h3>Flow 2: LET - Manual BU Rep Approval v2 &#10003;</h3>
+<p><b>Trigger:</b> For a selected item (V2) &nbsp;|&nbsp; <b>Purpose:</b> Re-trigger approval for existing items</p>
+<div class="ok">&#10003; Working as of June 2026.</div>
+<p><b>How to use:</b> SharePoint list &rarr; check item checkbox &rarr; <b>Flows</b> button &rarr; select flow &rarr; Run</p>
+<p>Same logic as Flow 1 but uses <code>triggerBody()?['ID']</code> to read the selected item.</p>
+
+<h3>Flow 3: LET - Net Growth Request Notification &#10003;</h3>
+<p><b>Trigger:</b> When item is created or modified &nbsp;|&nbsp; <b>Purpose:</b> Notify RE Director of Net Growth requests (once only)</p>
+<ul>
+<li>Condition: <code>LETClassification/Value = "Net Growth Request"</code> AND <code>NetGrowthEmailSent = false</code></li>
+<li><b>To:</b> adam.novak@intel.com &nbsp;|&nbsp; <b>CC:</b> yariv.lahat@intel.com</li>
+<li>Subject: <code>&#9888;&#65039; Net Growth Request - LET #[Title] requires your review</code></li>
+<li>After sending: sets <code>NetGrowthEmailSent = true</code> to prevent repeat emails</li>
+</ul>
+<div class="warn">&#9888; Circular loop warning on save is expected and harmless &mdash; the flag blocks re-triggering.</div>
+
+<h3>Flow 4: Change Notification Email (existing) &#10003;</h3>
+<p><b>Flow ID:</b> <code>93389d4c-011d-43c6-b806-2c7db572e3a6</code> &nbsp;|&nbsp; <b>Trigger:</b> When item is created or modified</p>
+<p>Updated to include <b>Approval Information</b> section:</p>
+<ul>
+<li>LET Classification: <code>triggerOutputs()?['body/LETClassification/Value']</code></li>
+<li>BU Rep Approval Status: <code>triggerOutputs()?['body/BURepApprovalStatus/Value']</code></li>
+<li>BU Rep Approver: <code>triggerOutputs()?['body/BURepApproverEmail']</code></li>
+<li>BU Rep Approval Date: <code>if(empty(...),'Pending',formatDateTime(...,'yyyy-MM-dd'))</code></li>
+</ul>
+
+<h2>Common Gotchas &amp; Fixes</h2>
+<table>
+<tr><th>Issue</th><th>Fix</th></tr>
+<tr><td>Choice field shows raw JSON in email</td><td>Add <code>/Value</code>: use <code>body/LETClassification/Value</code></td></tr>
+<tr><td>Choice field not saving in Power App</td><td>Use <code>{Value: Dropdown.Selected.Value}</code> in DataCard Update</td></tr>
+<tr><td>Dropdown shows wrong default on edit</td><td>Set Default to <code>ThisItem.ChoiceColumn.Value</code></td></tr>
+<tr><td>Flow filter returns empty</td><td>Add Get item step first; reference <code>outputs('Get_item')?['body/field_7']</code></td></tr>
+<tr><td>OData filter for blank field fails</td><td>Use Filter array with <code>empty(item()?['FieldName'])</code> = true</td></tr>
+<tr><td>Approval date format error</td><td>Use <code>utcNow('yyyy-MM-dd')</code> not <code>utcNow()</code></td></tr>
+<tr><td>DLP policy error</td><td>Use Office 365 Outlook connector (not basic Send Mail)</td></tr>
+<tr><td>Email body shows raw HTML</td><td>Paste in code view (<code>&lt;/&gt;</code>), switch back to rich text before saving</td></tr>
+<tr><td>Both condition branches run</td><td>Rebuild flow from scratch &mdash; corrupted "run after" settings are invisible</td></tr>
+<tr><td>SharePoint Yes/No in flow</td><td>Compare to <code>true</code>/<code>false</code> not "Yes"/"No"</td></tr>
+<tr><td>OData filter with special chars (SPE &amp;)</td><td>Use <code>concat('field_1 eq ''', outputs('Get_item')?['body/field_7'], '''')</code></td></tr>
+<tr><td>For each input must be array</td><td>Don't use <code>first()</code> as For each input &mdash; pass full array, use <code>item()?['field']</code> inside</td></tr>
+</table>
+
+<h2>Future Tasks</h2>
+<ul>
+<li><span class="todo">TODO</span> Test new automatic flow (v2) with real SPE request</li>
+<li><span class="todo">TODO</span> Show BU Rep Approval Status read-only in Power App form</li>
+<li><span class="todo">TODO</span> Add approve/reject action for Adam Novak in Net Growth email</li>
+<li><span class="todo">TODO</span> Decide: merge WorkflowStage into Request Status (field_3) or keep separate</li>
+</ul>
+
+<hr>
+<p style="color:#888;font-size:11px">LET Power App &amp; Automation Guide &mdash; Yariv Lahat, Intel CS/GLP &mdash; Last updated: June 2026</p>
+</body>
+</html>

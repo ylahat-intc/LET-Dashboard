@@ -1,15 +1,30 @@
-# Secrets and credentials — NEVER commit these
+# ── SECRETS — NEVER COMMIT ───────────────────────────────
 .msal_token_cache.bin
 azure_config.txt
-*.bin
-*.pyc
-__pycache__/
 
-# Large data files that are rebuilt on every run
+# ── LARGE CACHE FILES (rebuilt daily, not needed in git) ─
 let_data_cache.json
 let_data_cache_excel.json
 refresh_log.txt
 
-# Local-only temp files
+# ── GENERATED / INTERMEDIATE FILES ───────────────────────
+LET_Dashboard.aspx
+site_region_map.json
+*.xlsx
+*.xlsm
+push_source.gitignore
+
+# ── IMAGE DUPLICATES (favicon.png in repo is the correct one) ─
+Designer (4).png
+Designer (5).png
+
+# ── DEBUG / TEMP SCRIPTS ─────────────────────────────────
 _debug_*.py
 _cost_audit.py
+check_fields.py
+replace_logo.py
+
+# ── EDITOR ───────────────────────────────────────────────
+.vscode/
+*.pyc
+__pycache__/

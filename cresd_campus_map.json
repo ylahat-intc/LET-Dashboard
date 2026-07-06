@@ -1,0 +1,7498 @@
+[
+  {
+    "code": "ABC",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Munich",
+    "name": "Airport Business, Munich"
+  },
+  {
+    "code": "ABP",
+    "region": "EMEA",
+    "country": "Ireland",
+    "subdivision": "Cork",
+    "city": "Cork",
+    "name": "Cork Airport Business Park"
+  },
+  {
+    "code": "ABU",
+    "region": "EMEA",
+    "country": "Utd.Arab Emir.",
+    "subdivision": "Abu Dhabi",
+    "city": "Abu Dhabi",
+    "name": "Technology Park, Abu Dhabi"
+  },
+  {
+    "code": "AC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Pleasanton",
+    "name": "Arroyo, Pleasanton"
+  },
+  {
+    "code": "ACB",
+    "region": "EMEA",
+    "country": "Serbia",
+    "subdivision": "Beograd",
+    "city": "Belgrade",
+    "name": "Airport City, Belgrade"
+  },
+  {
+    "code": "ACM",
+    "region": "APAC",
+    "country": "Thailand",
+    "subdivision": "Chiang Mai",
+    "city": "Chiang Mai",
+    "name": "APB, Chiang Mai"
+  },
+  {
+    "code": "ACR",
+    "region": "AMER",
+    "country": "Colombia",
+    "subdivision": "Distrito Capital de Bogota",
+    "city": "Bogota",
+    "name": "Avenida Carrera"
+  },
+  {
+    "code": "ADB",
+    "region": "EMEA",
+    "country": "Spain",
+    "subdivision": "Madrid",
+    "city": "Madrid",
+    "name": "Avada de Bruselas"
+  },
+  {
+    "code": "AFZ",
+    "region": "AMER",
+    "country": "Costa Rica",
+    "subdivision": "Heredia",
+    "city": "Heredia",
+    "name": "America Free Zone, Heredia"
+  },
+  {
+    "code": "AG",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "BEAVERTON",
+    "name": "Amberglen, Hillsboro"
+  },
+  {
+    "code": "AHB",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Hsinchu (City)",
+    "city": "Hsinchu",
+    "name": "Ambassador Hotel Building"
+  },
+  {
+    "code": "AHW",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Arizona",
+    "city": "Phoenix",
+    "name": "Ahwatukee Warehouse"
+  },
+  {
+    "code": "AIA",
+    "region": "APAC",
+    "country": "Thailand",
+    "subdivision": "Krung Thep (Bangkok)",
+    "city": "Dindaeng",
+    "name": "Capital Center (McAfee)"
+  },
+  {
+    "code": "AIC",
+    "region": "EMEA",
+    "country": "Romania",
+    "subdivision": "Galati",
+    "city": "Galati",
+    "name": "Morilor"
+  },
+  {
+    "code": "AJA",
+    "region": "EMEA",
+    "country": "Denmark",
+    "subdivision": "Region Hovedstaden",
+    "city": "Copenhagen",
+    "name": "Arne Jacobsens Alle"
+  },
+  {
+    "code": "AKD",
+    "region": "EMEA",
+    "country": "Egypt",
+    "subdivision": "Al Qahirah",
+    "city": "Cairo",
+    "name": "Arkadia, Cairo"
+  },
+  {
+    "code": "AKL",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Novosibirsk",
+    "city": "Novosibirsk",
+    "name": "Lavrentieva, Novosibirsk"
+  },
+  {
+    "code": "AL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Aloha",
+    "name": "Aloha"
+  },
+  {
+    "code": "ALFN",
+    "region": "EMEA",
+    "country": "Denmark",
+    "subdivision": "Region Nordjylland",
+    "city": "Aalborg",
+    "name": "Alfred Nobels, Aalborg"
+  },
+  {
+    "code": "ALG",
+    "region": "EMEA",
+    "country": "Algeria",
+    "subdivision": "Alger",
+    "city": "Algiers",
+    "name": "Pins Maritime, Algiers"
+  },
+  {
+    "code": "ALM",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Jose",
+    "name": "Almaden, San Jose"
+  },
+  {
+    "code": "ALP",
+    "region": null,
+    "country": null,
+    "subdivision": "Guangdong Sheng",
+    "city": "Shenzhen",
+    "name": "Anlian Plaza"
+  },
+  {
+    "code": "AM",
+    "region": "EMEA",
+    "country": "Netherlands",
+    "subdivision": "Noord-Holland",
+    "city": "Amsterdam",
+    "name": "Schiphol-Rijk, Amsterdam"
+  },
+  {
+    "code": "AMB",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Ambercreek, HIllsboro (McAfee)"
+  },
+  {
+    "code": "AMC",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Neubiberg",
+    "name": "Am Campeon, Neubiberg"
+  },
+  {
+    "code": "AMK",
+    "region": "APAC",
+    "country": "Singapore",
+    "subdivision": "Singapore",
+    "city": "Singapore",
+    "name": "Ang Mo Kio, Singapore"
+  },
+  {
+    "code": "AMP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Pennsylvania",
+    "city": "Allentown",
+    "name": "Amer Pkwy, Allentown"
+  },
+  {
+    "code": "AN",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Texas",
+    "city": "Austin",
+    "name": "Barton Skyway, Austin"
+  },
+  {
+    "code": "ANG",
+    "region": "EMEA",
+    "country": "Poland",
+    "subdivision": "Pomerania",
+    "city": "Gdansk",
+    "name": "Artnet Gdynia Colo"
+  },
+  {
+    "code": "ANH",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Maharashtra",
+    "city": "Mumbai",
+    "name": "Andheri, Mumbai"
+  },
+  {
+    "code": "ANK",
+    "region": "EMEA",
+    "country": "Turkiye",
+    "subdivision": "Ankara",
+    "city": "Sogutozu",
+    "name": "Armada, Ankara"
+  },
+  {
+    "code": "ANL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Texas",
+    "city": "Austin",
+    "name": "Centennial, Austin"
+  },
+  {
+    "code": "ANS",
+    "region": "EMEA",
+    "country": "Jordan",
+    "subdivision": "Amman",
+    "city": "Amman",
+    "name": "Anshassi, Amman"
+  },
+  {
+    "code": "AON",
+    "region": "EMEA",
+    "country": "Switzerland",
+    "subdivision": "Vaud",
+    "city": "Rolle",
+    "name": "A-One, Rolle"
+  },
+  {
+    "code": "APB",
+    "region": "EMEA",
+    "country": "Belgium",
+    "subdivision": "Brussels-Capitale",
+    "city": "Brussels",
+    "name": "Airway Park, Brussels"
+  },
+  {
+    "code": "APK",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Markham",
+    "name": "Allstate Pkwy, Markham"
+  },
+  {
+    "code": "APO",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Chelmsford",
+    "name": "Apollo Dr"
+  },
+  {
+    "code": "APP",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Berlin",
+    "city": "Berlin",
+    "name": "Am Potsdamer Platz"
+  },
+  {
+    "code": "APR",
+    "region": "APAC",
+    "country": "Singapore",
+    "subdivision": "Singapore",
+    "city": "Singapore",
+    "name": "Aperia, Singapore"
+  },
+  {
+    "code": "APX",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Almondsbury",
+    "name": "Apex Court, Almondsbury"
+  },
+  {
+    "code": "ARC",
+    "region": "AMER",
+    "country": "Panama",
+    "subdivision": "Panama",
+    "city": "Panama City",
+    "name": "Ave. Ricardo"
+  },
+  {
+    "code": "ART",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Provence-Alpes-Cote-",
+    "city": "Aix en Provence",
+    "name": "Arteparc-de-Bachassons"
+  },
+  {
+    "code": "ASD",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "HaDarom",
+    "city": "Ashdod",
+    "name": "Ashdod, Israel"
+  },
+  {
+    "code": "ASEM",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Seoul Teugbyeolsi",
+    "city": "Kangnam-gu",
+    "name": "ASEM, Seoul"
+  },
+  {
+    "code": "ASH",
+    "region": "APAC",
+    "country": "Australia",
+    "subdivision": "Queensland",
+    "city": "Brisbane",
+    "name": "Ashgrove, Brisbane"
+  },
+  {
+    "code": "ASJ",
+    "region": "APAC",
+    "country": "Indonesia",
+    "subdivision": "Jakarta Raya",
+    "city": "Jakarta",
+    "name": "Ariobimo Sentral, Jakarta"
+  },
+  {
+    "code": "ASQ",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Waterloo",
+    "name": "Allen Square, Waterloo"
+  },
+  {
+    "code": "AST",
+    "region": "APAC",
+    "country": "New Zealand",
+    "subdivision": "Auckland",
+    "city": "Auckland",
+    "name": "Shortland Towers, Auckland"
+  },
+  {
+    "code": "ATC",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Milano",
+    "city": "Milan",
+    "name": "Atlantic Centre"
+  },
+  {
+    "code": "ATE",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Edinburgh",
+    "name": "Appleton Tower Edinburgh"
+  },
+  {
+    "code": "ATK",
+    "region": "EMEA",
+    "country": "Denmark",
+    "subdivision": "Region Hovedstaden",
+    "city": "Soborg",
+    "name": "Automatikvej, Soborg"
+  },
+  {
+    "code": "ATM",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Tel-Aviv",
+    "city": "Tel Aviv",
+    "name": "Atidim Tower, Tel Aviv"
+  },
+  {
+    "code": "ATU",
+    "region": "APAC",
+    "country": "Kazakhstan",
+    "subdivision": "Almaty",
+    "city": "Almaty",
+    "name": "Alatau Grand, Almaty"
+  },
+  {
+    "code": "ATW",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Tel-Aviv",
+    "city": "Herzliya",
+    "name": "Ackerstein Towers, Herzliya"
+  },
+  {
+    "code": "AU",
+    "region": "APAC",
+    "country": "Australia",
+    "subdivision": "Queensland",
+    "city": "Brisbane",
+    "name": "Brisbane FSO"
+  },
+  {
+    "code": "AVA",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New York",
+    "city": "Manhatten",
+    "name": "Avenue of the Americas"
+  },
+  {
+    "code": "AVC",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Kerala",
+    "city": "Cochin",
+    "name": "Avenue Center, Cochin"
+  },
+  {
+    "code": "AZB",
+    "region": "EMEA",
+    "country": "Lebanon",
+    "subdivision": "Bayrut",
+    "city": "Beirut",
+    "name": "Azarieh, Beirut"
+  },
+  {
+    "code": "AZS",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Arizona",
+    "city": "Scottsdale",
+    "name": "Iron Mountain Scottsdale Colo"
+  },
+  {
+    "code": "AZT",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Tel-Aviv",
+    "city": "Tel Aviv",
+    "name": "Azrieli, Tel Aviv"
+  },
+  {
+    "code": "BAS",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Occitanie",
+    "city": "Toulouse",
+    "name": "Basso Cambo, Toulouse"
+  },
+  {
+    "code": "BAU",
+    "region": "APAC",
+    "country": "Sri Lanka",
+    "subdivision": "Colombo",
+    "city": "Colombo",
+    "name": "Bauddhaloka, Colombo"
+  },
+  {
+    "code": "BB",
+    "region": "AMER",
+    "country": "Barbados",
+    "subdivision": "Saint Michael",
+    "city": "Bridgetown",
+    "name": "Bridgetown, Barbados"
+  },
+  {
+    "code": "BBD",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Boxborough",
+    "name": "Beaver Brook"
+  },
+  {
+    "code": "BBY",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "British Columbia",
+    "city": "Burnaby",
+    "name": "Burnaby, Vancouver"
+  },
+  {
+    "code": "BCG",
+    "region": "EMEA",
+    "country": "Ireland",
+    "subdivision": "Cork",
+    "city": "Cork",
+    "name": "City Gate"
+  },
+  {
+    "code": "BCN",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "Belfast",
+    "city": "Belfast",
+    "name": "Beacon House, Belfast"
+  },
+  {
+    "code": "BCP",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Delhi",
+    "city": "New Delhi",
+    "name": "Bhikaji Cama, New Delhi"
+  },
+  {
+    "code": "BCR",
+    "region": "EMEA",
+    "country": "Czechia",
+    "subdivision": "CZECH REPUBLIC",
+    "city": "Brno",
+    "name": "Brno Czech Republic"
+  },
+  {
+    "code": "BD",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Bedford",
+    "name": "Bedford, Massachusetts"
+  },
+  {
+    "code": "BDA",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Beijing",
+    "name": "Beijing Dev Area, Beijing"
+  },
+  {
+    "code": "BDC",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "BDC, Bangalore"
+  },
+  {
+    "code": "BDG",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "London",
+    "name": "Broadgate, London"
+  },
+  {
+    "code": "BDI",
+    "region": "APAC",
+    "country": "Mongolia",
+    "subdivision": "Ulaanbaatar",
+    "city": "Ulaanbaatar",
+    "name": "Bodi, Ulaanbaatar"
+  },
+  {
+    "code": "BDM",
+    "region": "APAC",
+    "country": "Singapore",
+    "subdivision": "Singapore",
+    "city": "Singapore",
+    "name": "BS Bendemeer Centre"
+  },
+  {
+    "code": "BDS",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Diego",
+    "name": "Bernardo Drive San Diego"
+  },
+  {
+    "code": "BDY",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New Mexico",
+    "city": "Albuquerque",
+    "name": "Bradbury, Albuquerque"
+  },
+  {
+    "code": "BEL",
+    "region": "AMER",
+    "country": "Ecuador",
+    "subdivision": "Pichincha",
+    "city": "Quito",
+    "name": "Belmonte, Quito"
+  },
+  {
+    "code": "BFT",
+    "region": "EMEA",
+    "country": "Romania",
+    "subdivision": "Cluj",
+    "city": "Cluj-Napoca",
+    "name": "Buftea, Cluj-Napoca"
+  },
+  {
+    "code": "BGA",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Airport Road, Bangalore"
+  },
+  {
+    "code": "BGE",
+    "region": "EMEA",
+    "country": "Netherlands",
+    "subdivision": "Noord-Holland",
+    "city": "Schipol-Rijk",
+    "name": "Boeingavenue"
+  },
+  {
+    "code": "BGM",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Bagmane Tech Park"
+  },
+  {
+    "code": "BGT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Brighton",
+    "name": "Brighton, Massachusetts"
+  },
+  {
+    "code": "BHK",
+    "region": null,
+    "country": null,
+    "subdivision": "Yunnan Sheng",
+    "city": "Kunming",
+    "name": "Bank Hotel, Kunming"
+  },
+  {
+    "code": "BHL",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Nordrhein-Westfalen",
+    "city": "Bruhl",
+    "name": "Bruhl, Koln"
+  },
+  {
+    "code": "BJA",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Zhejiang Sheng",
+    "city": "Hangzhou",
+    "name": "Binjiang Area"
+  },
+  {
+    "code": "BKN",
+    "region": "EMEA",
+    "country": "Serbia",
+    "subdivision": "Beograd",
+    "city": "Belgrade",
+    "name": "Balkanska, Belgrade"
+  },
+  {
+    "code": "BL",
+    "region": "EMEA",
+    "country": "Belgium",
+    "subdivision": "Brussels-Capitale",
+    "city": "Brussels",
+    "name": "Brussels, Belgium"
+  },
+  {
+    "code": "BLK",
+    "region": "EMEA",
+    "country": "Turkiye",
+    "subdivision": "Ankara",
+    "city": "Ankara",
+    "name": "Bilkent, Ankara"
+  },
+  {
+    "code": "BLP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Pennsylvania",
+    "city": "Bala Cynwyd",
+    "name": "Bala Plaza, Bala Cynwyd"
+  },
+  {
+    "code": "BLR",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Toronto",
+    "name": "Bloor St"
+  },
+  {
+    "code": "BLU",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Florida (USA)",
+    "city": "Miami",
+    "name": "Blue Lagoon Drive, Miami"
+  },
+  {
+    "code": "BMR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Ohio",
+    "city": "Hudson",
+    "name": "Boston Mills Road"
+  },
+  {
+    "code": "BN",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Bend",
+    "name": "Bend"
+  },
+  {
+    "code": "BNT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Bennett, Hillsboro"
+  },
+  {
+    "code": "BOC",
+    "region": "EMEA",
+    "country": "Romania",
+    "subdivision": "Bucuresti",
+    "city": "Bucharest",
+    "name": "BOC, Bucharest"
+  },
+  {
+    "code": "BOI",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Idaho",
+    "city": "Boise",
+    "name": "Boise"
+  },
+  {
+    "code": "BOP",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Beijing",
+    "name": "Oriental Plaza, Beijing"
+  },
+  {
+    "code": "BPN",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New York",
+    "city": "New York",
+    "name": "Bryant Park NYC"
+  },
+  {
+    "code": "BQC",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Quebec",
+    "city": "Brossard",
+    "name": "Brossard Quebec Canada registration office"
+  },
+  {
+    "code": "BR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Brentwood",
+    "name": "Brentwood, Los Angeles"
+  },
+  {
+    "code": "BRD",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New York",
+    "city": "New York",
+    "name": "Broadway, NY"
+  },
+  {
+    "code": "BRP",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Edgbaston",
+    "name": "Birmingham Park"
+  },
+  {
+    "code": "BRR",
+    "region": "EMEA",
+    "country": "Romania",
+    "subdivision": "Brasov",
+    "city": "Brasov",
+    "name": "Brasov Romania"
+  },
+  {
+    "code": "BRS",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Planegg",
+    "name": "Behringstrasse Warehouse"
+  },
+  {
+    "code": "BRT",
+    "region": "APAC",
+    "country": "Australia",
+    "subdivision": "Australian Capital Territory",
+    "city": "Barton",
+    "name": "Barton, ACT"
+  },
+  {
+    "code": "BSC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Barefoot Santa Clara Office"
+  },
+  {
+    "code": "BSF",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Francisco",
+    "name": "Bush San Francisco"
+  },
+  {
+    "code": "BSL",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Quebec",
+    "city": "Montreal",
+    "name": "Blvd St Laurent"
+  },
+  {
+    "code": "BSQ",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Gujarat",
+    "city": "Ahmedabad",
+    "name": "B-Square Managed Offices"
+  },
+  {
+    "code": "BSV",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Moskva",
+    "city": "Moscow",
+    "name": "Bolshoy Savvinsky, Moscow"
+  },
+  {
+    "code": "BTN",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Brunton Road"
+  },
+  {
+    "code": "BTP",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Brigade Techpark, Bangalore "
+  },
+  {
+    "code": "BTR",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Berkshire",
+    "name": "Bath Road"
+  },
+  {
+    "code": "BU",
+    "region": "EMEA",
+    "country": "Hungary",
+    "subdivision": "Budapest",
+    "city": "Budapest",
+    "name": "Emke, Budapest"
+  },
+  {
+    "code": "BUK",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Bath",
+    "name": "Barefoot Bath United Kingdom"
+  },
+  {
+    "code": "BVR",
+    "region": "EMEA",
+    "country": "Luxembourg",
+    "subdivision": "Luxembourg",
+    "city": "Luxembourg",
+    "name": "Boulevard Royal"
+  },
+  {
+    "code": "BVT",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Gyeonggido",
+    "city": "Seongnam",
+    "name": "Bundang, Seongnam"
+  },
+  {
+    "code": "BW",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Bowers, Santa Clara"
+  },
+  {
+    "code": "BWJ",
+    "region": "EMEA",
+    "country": "Poland",
+    "subdivision": "Mazovia",
+    "city": "Warsaw",
+    "name": "Bitwy Warszawskiej"
+  },
+  {
+    "code": "BWM",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Sachsen-Anhalt",
+    "city": "Magdeburg",
+    "name": "Breiter Weg Magdeburg Office"
+  },
+  {
+    "code": "BWY",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "British Columbia",
+    "city": "Vancouver",
+    "name": "Broadway, Vancouver"
+  },
+  {
+    "code": "BZ",
+    "region": "AMER",
+    "country": "Brazil",
+    "subdivision": "Sao Paulo",
+    "city": "Sao Paulo",
+    "name": "Market Place, Sao Paulo"
+  },
+  {
+    "code": "CAM",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Occitanie",
+    "city": "Toulouse",
+    "name": "Claude Marie, Toulouse"
+  },
+  {
+    "code": "CAP",
+    "region": "AMER",
+    "country": "Argentina",
+    "subdivision": "Cordoba (Argentina)",
+    "city": "Cordoba",
+    "name": "Capitalinas, Cordoba"
+  },
+  {
+    "code": "CAS",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Casper, Hillsboro"
+  },
+  {
+    "code": "CBA",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "South Carolina",
+    "city": "Columbia",
+    "name": "Center Point, Columbia"
+  },
+  {
+    "code": "CBD",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Copper Beech, Hillsboro"
+  },
+  {
+    "code": "CBG",
+    "region": "APAC",
+    "country": "Hong Kong",
+    "subdivision": "Hong Kong Island",
+    "city": "Hong Kong",
+    "name": "Central, Hong Kong"
+  },
+  {
+    "code": "CCH",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Markham",
+    "name": "Cochrane Drive"
+  },
+  {
+    "code": "CCO",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Ohio",
+    "city": "Columbus",
+    "name": "Cologix Colo Ohio"
+  },
+  {
+    "code": "CD",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Sichuan Sheng",
+    "city": "Chengdu",
+    "name": "Hi-Tech West Park, Chengdu"
+  },
+  {
+    "code": "CDH",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Delhi",
+    "city": "Chandigarh",
+    "name": "Chandigarh, New Delhi"
+  },
+  {
+    "code": "CE",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Cambridge",
+    "name": "Level 3, Cambridge"
+  },
+  {
+    "code": "CEN",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Taipei",
+    "city": "Taipei",
+    "name": "Century, Taipei"
+  },
+  {
+    "code": "CEP",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Haidan District",
+    "name": "China Electronics Plaza"
+  },
+  {
+    "code": "CFC",
+    "region": "EMEA",
+    "country": "Egypt",
+    "subdivision": "Al Qahirah",
+    "city": "Cairo",
+    "name": "Cairo Festival City"
+  },
+  {
+    "code": "CFL",
+    "region": "AMER",
+    "country": "Brazil",
+    "subdivision": "Distrito Federal (Brazil)",
+    "city": "Brasilia",
+    "name": "Corp Fin Ctr, Brasilia"
+  },
+  {
+    "code": "CG",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Alberta",
+    "city": "Calgary",
+    "name": "Deerfoot, Calgary"
+  },
+  {
+    "code": "CGN",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "North Carolina",
+    "city": "Cary",
+    "name": "CentreGreen Five Office Park"
+  },
+  {
+    "code": "CGT",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Delhi",
+    "city": "New Delhi",
+    "name": "Connaught, Delhi"
+  },
+  {
+    "code": "CGX",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Shanghai Shi",
+    "city": "Pudong District",
+    "name": "Changxing"
+  },
+  {
+    "code": "CH",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Arizona",
+    "city": "Chandler",
+    "name": "Chandler, Phoenix"
+  },
+  {
+    "code": "CHB",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Hamburg",
+    "city": "Hamburg",
+    "name": "Channel-Harburg, Hamburg"
+  },
+  {
+    "code": "CHP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Plumeria, Santa Clara"
+  },
+  {
+    "code": "CIM",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Cambridge",
+    "name": "CIC Ignite Massachusetts"
+  },
+  {
+    "code": "CIT",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Ibaraki",
+    "city": "Tsukuba",
+    "name": "Citia, Tsukuba"
+  },
+  {
+    "code": "CJ",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Thousand Oaks",
+    "name": "Conejo, Thousand Oaks"
+  },
+  {
+    "code": "CK",
+    "region": "APAC",
+    "country": "Philippines",
+    "subdivision": "Pampanga",
+    "city": "Angeles",
+    "name": "Clark, Philippines"
+  },
+  {
+    "code": "CL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Irvine",
+    "name": "Corollary, Irvine"
+  },
+  {
+    "code": "CLF",
+    "region": "APAC",
+    "country": "Singapore",
+    "subdivision": "Singapore",
+    "city": "Singapore",
+    "name": "Bendemeer Center"
+  },
+  {
+    "code": "CLN",
+    "region": "EMEA",
+    "country": "Belgium",
+    "subdivision": "Brussels-Capitale",
+    "city": "Brussels",
+    "name": "Culliganlaan 2H"
+  },
+  {
+    "code": "CLS",
+    "region": "APAC",
+    "country": "Australia",
+    "subdivision": "Victoria",
+    "city": "Melbourne",
+    "name": "Collins Street, Melbourne"
+  },
+  {
+    "code": "CLT",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Beijing Shi",
+    "name": "China Life Tower"
+  },
+  {
+    "code": "CM",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Pennsylvania",
+    "city": "Pittsburgh",
+    "name": "Carnegie Mellon, Pittsburgh"
+  },
+  {
+    "code": "CMB",
+    "region": "EMEA",
+    "country": "Algeria",
+    "subdivision": "Alger",
+    "city": "Algiers",
+    "name": "Cooperative Mohamed Boudiaf"
+  },
+  {
+    "code": "CMC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Cambridge",
+    "name": "Cambridge Center"
+  },
+  {
+    "code": "CML",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Kerala",
+    "city": "Kochi",
+    "name": "Chiramel, Kochi"
+  },
+  {
+    "code": "CMR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Diego",
+    "name": "Carmel Mountain Rd"
+  },
+  {
+    "code": "CMS",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Swindon",
+    "name": "Cheney Manor, Swindon"
+  },
+  {
+    "code": "CMT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Wisconsin",
+    "city": "Eau Claire",
+    "name": "Clairemont, Eau Claire"
+  },
+  {
+    "code": "CMV",
+    "region": "EMEA",
+    "country": "Spain",
+    "subdivision": "Madrid",
+    "city": "Madrid",
+    "name": "Martinez Villergas Biz Park"
+  },
+  {
+    "code": "CMZ",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Maharashtra",
+    "city": "Pune",
+    "name": "Commerzone, Pune"
+  },
+  {
+    "code": "CNC",
+    "region": "EMEA",
+    "country": "Egypt",
+    "subdivision": "Al Qahirah",
+    "city": "Cairo",
+    "name": "Nile City Towers, Cairo"
+  },
+  {
+    "code": "CNG",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Boston",
+    "name": "Congress, Boston"
+  },
+  {
+    "code": "CNL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Illinois",
+    "city": "Rockton",
+    "name": "Cannell Court, Rockton"
+  },
+  {
+    "code": "CNP",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Maharashtra",
+    "city": "Pune",
+    "name": "Connaught Place, Pune"
+  },
+  {
+    "code": "CNV",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "North Carolina",
+    "city": "Raleigh",
+    "name": "Centerview Drive"
+  },
+  {
+    "code": "CNW",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "London",
+    "name": "Canary Wharf Group Building"
+  },
+  {
+    "code": "CO",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "BEAVERTON",
+    "name": "Cornell Oaks, Hillsboro"
+  },
+  {
+    "code": "COL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Santa Monica",
+    "name": "Colorado, Santa Monica"
+  },
+  {
+    "code": "COM",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Georgia",
+    "city": "Conyers",
+    "name": "Commercial, Conyers"
+  },
+  {
+    "code": "COR",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Torino",
+    "city": "Turin",
+    "name": "Corso Lombardia"
+  },
+  {
+    "code": "COT",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Daventry",
+    "name": "Cottesbrooke, Daventry"
+  },
+  {
+    "code": "CP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Irvine",
+    "name": "Corporate Park, Irvine"
+  },
+  {
+    "code": "CPH",
+    "region": "APAC",
+    "country": "Cambodia",
+    "subdivision": "Phnom Penh",
+    "city": "Phnom Penh",
+    "name": "Cambodiana, Phnom Penh"
+  },
+  {
+    "code": "CPL",
+    "region": "APAC",
+    "country": "Hong Kong",
+    "subdivision": "Hong Kong Island",
+    "city": "Hong Kong",
+    "name": "Central Plaza, Hong Kong"
+  },
+  {
+    "code": "CPT",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Maharashtra",
+    "city": "Pune",
+    "name": "City Point, Pune"
+  },
+  {
+    "code": "CR",
+    "region": "AMER",
+    "country": "Costa Rica",
+    "subdivision": "Heredia",
+    "city": "Heredia",
+    "name": "Belen, San Jose"
+  },
+  {
+    "code": "CRH",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "London",
+    "name": "Carrington, London"
+  },
+  {
+    "code": "CRL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Minnesota",
+    "city": "Hopkins",
+    "name": "Carlson Parkway"
+  },
+  {
+    "code": "CRM",
+    "region": "AMER",
+    "country": "Costa Rica",
+    "subdivision": "Heredia",
+    "city": "San Jose",
+    "name": "Mercedes, San Jose Costa Rica"
+  },
+  {
+    "code": "CRS",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "Longmont",
+    "name": "Creekside, Longmont"
+  },
+  {
+    "code": "CRU",
+    "region": "AMER",
+    "country": "Costa Rica",
+    "subdivision": "Heredia",
+    "city": "La Aurora",
+    "name": "Ultra Park, Costa Rica"
+  },
+  {
+    "code": "CSB",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Ctrls Bangalore Colo"
+  },
+  {
+    "code": "CSN",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Francisco",
+    "name": "Chestnut Street, SFO"
+  },
+  {
+    "code": "CSQ",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Florida (USA)",
+    "city": "Clearwater",
+    "name": "Corporate Square, Clearwater"
+  },
+  {
+    "code": "CSR",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hefa",
+    "city": "Caesarea",
+    "name": "Habana ISR Caesarea"
+  },
+  {
+    "code": "CST",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Fremont",
+    "name": "Christy, Fremont"
+  },
+  {
+    "code": "CTB",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Fujian Sheng",
+    "city": "Fuzhou",
+    "name": "Central Bus Dist, Fuzhou"
+  },
+  {
+    "code": "CTC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Calabasas",
+    "name": "Calabasas, Thousand Oaks"
+  },
+  {
+    "code": "CTL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Minnesota",
+    "city": "Edina",
+    "name": "Centennial, Edina"
+  },
+  {
+    "code": "CTM",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Egham",
+    "name": "Centrum House"
+  },
+  {
+    "code": "CTW",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Diego",
+    "name": "CentreWest"
+  },
+  {
+    "code": "CV",
+    "region": "APAC",
+    "country": "Philippines",
+    "subdivision": "Cavite",
+    "city": "Cavite",
+    "name": "Gateway, Cavite"
+  },
+  {
+    "code": "CVD",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Ile-de-France",
+    "city": "Puteaux",
+    "name": "Cours Valmy, La Defense"
+  },
+  {
+    "code": "CWB",
+    "region": "APAC",
+    "country": "Hong Kong",
+    "subdivision": "Hong Kong Island",
+    "city": "Hong Kong",
+    "name": "Causeway Bay FSO, Hong Kong"
+  },
+  {
+    "code": "CWHS",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Cornelius",
+    "name": "Cornelius, Hillsboro"
+  },
+  {
+    "code": "CZ",
+    "region": "EMEA",
+    "country": "Czechia",
+    "subdivision": "Praha, Hlavni mesto",
+    "city": "Prague",
+    "name": "IBC, Prague"
+  },
+  {
+    "code": "DAI",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Osaka",
+    "city": "Osaka-shi",
+    "name": "Daiichi Seimei"
+  },
+  {
+    "code": "DBA",
+    "region": "EMEA",
+    "country": "Utd.Arab Emir.",
+    "subdivision": "Dubai",
+    "city": "Dubai",
+    "name": "Twin Towers, Dubai"
+  },
+  {
+    "code": "DC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "District of Columbia",
+    "city": "Washington",
+    "name": "Washington, DC"
+  },
+  {
+    "code": "DCR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Dawson Creek, Hillsboro"
+  },
+  {
+    "code": "DG",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Jose",
+    "name": "Daggett, San Jose"
+  },
+  {
+    "code": "DGM",
+    "region": "EMEA",
+    "country": "Belgium",
+    "subdivision": "Brussels-Capitale",
+    "city": "Diegem",
+    "name": "Diegem, Brussels"
+  },
+  {
+    "code": "DHR",
+    "region": "APAC",
+    "country": "Bangladesh",
+    "subdivision": "Dhaka Zila",
+    "city": "Dhaka",
+    "name": "Dhaka Regus"
+  },
+  {
+    "code": "DHS",
+    "region": "APAC",
+    "country": "Bangladesh",
+    "subdivision": "Dhaka Zila",
+    "city": "Dhaka",
+    "name": "Sheraton, Dhaka"
+  },
+  {
+    "code": "DIC",
+    "region": "EMEA",
+    "country": "Utd.Arab Emir.",
+    "subdivision": "Dubai",
+    "city": "Dubai",
+    "name": "Dubai Internet City"
+  },
+  {
+    "code": "DL",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Liaoning Sheng",
+    "city": "Dalian",
+    "name": "DETD (Huaihe), Dalian"
+  },
+  {
+    "code": "DLS",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Liaoning Sheng",
+    "city": "Dalian",
+    "name": "Software Institute, Dalian"
+  },
+  {
+    "code": "DMS",
+    "region": "EMEA",
+    "country": "Poland",
+    "subdivision": "Pomerania",
+    "city": "Gdansk",
+    "name": "Dmowskiego Centrum, Gdansk"
+  },
+  {
+    "code": "DMT",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Novosibirsk",
+    "city": "Novosibirsk",
+    "name": "Dimitrova, Novosibirsk"
+  },
+  {
+    "code": "DNB",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Aichi",
+    "city": "Nagoya",
+    "name": "Dai Nagoya Building"
+  },
+  {
+    "code": "DNC",
+    "region": "APAC",
+    "country": "Australia",
+    "subdivision": "Victoria",
+    "city": "Melbourne",
+    "name": "Doncaster, Melbourne"
+  },
+  {
+    "code": "DNM",
+    "region": "EMEA",
+    "country": "Finland",
+    "subdivision": "Western Finland",
+    "city": "Tampere",
+    "name": "Dynamo, Tampere"
+  },
+  {
+    "code": "DNS",
+    "region": "APAC",
+    "country": "Malaysia",
+    "subdivision": "Kuala Lumpur",
+    "city": "Kuala Lumpur",
+    "name": "Damansara, Kuala Lumpur"
+  },
+  {
+    "code": "DNV",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Toronto",
+    "name": "Don Valley"
+  },
+  {
+    "code": "DP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Washington",
+    "city": "DuPont",
+    "name": "DuPont, Washington"
+  },
+  {
+    "code": "DQJ",
+    "region": "EMEA",
+    "country": "South Africa",
+    "subdivision": "Gauteng",
+    "city": "Johannesburg",
+    "name": "Design Quarter Johannesburg"
+  },
+  {
+    "code": "DRT",
+    "region": "EMEA",
+    "country": "Sweden",
+    "subdivision": "Stockholm",
+    "city": "Stockholm",
+    "name": "Drottningholms, Stockholm"
+  },
+  {
+    "code": "DSL",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Nordrhein-Westfalen",
+    "city": "Duisburg",
+    "name": "Dusseldorfer, Duisburg"
+  },
+  {
+    "code": "DTM",
+    "region": "EMEA",
+    "country": "Spain",
+    "subdivision": "Sevilla",
+    "city": "Seville",
+    "name": "DTM, Seville"
+  },
+  {
+    "code": "DV",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Arizona",
+    "city": "Phoenix",
+    "name": "Deer Valley, Phoenix"
+  },
+  {
+    "code": "DVA",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Gujarat",
+    "city": "Ahmedabad",
+    "name": "Devashish, Ahmedabad"
+  },
+  {
+    "code": "DWG",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Guangdong Sheng",
+    "city": "Shenzhen",
+    "name": "Di Wang, Shenzhen"
+  },
+  {
+    "code": "DWTC",
+    "region": "EMEA",
+    "country": "Utd.Arab Emir.",
+    "subdivision": "Dubai",
+    "city": "Dubai",
+    "name": "World Trade Center, Dubai"
+  },
+  {
+    "code": "DYN",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Maharashtra",
+    "city": "Mumbai",
+    "name": "Dynasty, Mumbai"
+  },
+  {
+    "code": "EAS",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Saarland",
+    "city": "Saarbruecken",
+    "name": "Ernst-Abbe, Saarbruecken"
+  },
+  {
+    "code": "EB",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "BEAVERTON",
+    "name": "East Business Park, Hillsboro"
+  },
+  {
+    "code": "EBC",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Borehamwood",
+    "name": "Elstree, Borehamwood"
+  },
+  {
+    "code": "EC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Diego",
+    "name": "Evening Creek, San Diego"
+  },
+  {
+    "code": "ECC",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Shanghai Shi",
+    "city": "Jing'an District",
+    "name": "Eco City (McAfee)"
+  },
+  {
+    "code": "ECH",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Edgeconnex Hillsboro Colo"
+  },
+  {
+    "code": "ECO",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Ecospace, Bangalore"
+  },
+  {
+    "code": "ECP",
+    "region": "AMER",
+    "country": "Argentina",
+    "subdivision": "Cordoba (Argentina)",
+    "city": "Cordoba",
+    "name": "Ecipsa Tower, Cordoba"
+  },
+  {
+    "code": "ECR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Mateo",
+    "name": "El Camino Real"
+  },
+  {
+    "code": "EDI",
+    "region": "AMER",
+    "country": "Dominican Rep.",
+    "subdivision": "Distrito Nacional (Santo Domingo)",
+    "city": "Santo Domingo",
+    "name": "Edificio Torre"
+  },
+  {
+    "code": "EDM",
+    "region": "AMER",
+    "country": "Chile",
+    "subdivision": "Region Metropolitana De Santiago",
+    "city": "Santiago",
+    "name": "Edificio Millenium, Santiago"
+  },
+  {
+    "code": "EG",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Evergreen, Hillsboro"
+  },
+  {
+    "code": "EIP",
+    "region": "EMEA",
+    "country": "Switzerland",
+    "subdivision": "Vaud",
+    "city": "Lausanne",
+    "name": "EPFL Innovation Park"
+  },
+  {
+    "code": "EKB",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Tokyo",
+    "name": "Marunouchi Eiraku Building"
+  },
+  {
+    "code": "ELD",
+    "region": "AMER",
+    "country": "Brazil",
+    "subdivision": "Sao Paulo",
+    "city": "Sao Paulo",
+    "name": "El Dorado"
+  },
+  {
+    "code": "EMB",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Embassy, Bangalore"
+  },
+  {
+    "code": "EMN",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Pays-de-la-Loire",
+    "city": "Nantes",
+    "name": "Ecole des Mines, Nantes"
+  },
+  {
+    "code": "EMR",
+    "region": "AMER",
+    "country": "Peru",
+    "subdivision": "Lima",
+    "city": "Lima",
+    "name": "Empresarial Real, Lima"
+  },
+  {
+    "code": "ENG",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "Englewood",
+    "name": "Englewood, CO"
+  },
+  {
+    "code": "EP",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hamerkaz",
+    "city": "Yakum",
+    "name": "Euro Park, Yakum"
+  },
+  {
+    "code": "EPD",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Minnesota",
+    "city": "St. Paul",
+    "name": "Energy Park Drive"
+  },
+  {
+    "code": "EPL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Utah",
+    "city": "Lehi",
+    "name": "Executive Parkway Lehi"
+  },
+  {
+    "code": "EPW",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Swindon",
+    "name": "Edison Park, Swindon"
+  },
+  {
+    "code": "EQP",
+    "region": "APAC",
+    "country": "Malaysia",
+    "subdivision": "Pulau Pinang",
+    "city": "Bayan Lepas",
+    "name": "Equatorial, Penang"
+  },
+  {
+    "code": "ESL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Washington",
+    "city": "Seattle",
+    "name": "Eastlake, Seattle"
+  },
+  {
+    "code": "ESN",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Occitanie",
+    "city": "Toulouse",
+    "name": "Eisenhower, Toulouse"
+  },
+  {
+    "code": "EST",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Guangdong Sheng",
+    "city": "Shenzhen",
+    "name": "Electronic Science, Shenzhen"
+  },
+  {
+    "code": "ET",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Etobicoke",
+    "name": "Etobicoke, Toronto"
+  },
+  {
+    "code": "EUR",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Roma",
+    "city": "Rome",
+    "name": "EUR, Rome"
+  },
+  {
+    "code": "EVO",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "BOULDER",
+    "name": "Evolution, Boulder"
+  },
+  {
+    "code": "EY",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Elam Young, Hillsboro"
+  },
+  {
+    "code": "EZ",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Jose",
+    "name": "Enzo, San Jose"
+  },
+  {
+    "code": "FBN",
+    "region": "EMEA",
+    "country": "Sweden",
+    "subdivision": "Stockholm",
+    "city": "Nacka Strand",
+    "name": "Fabrikorsvagen"
+  },
+  {
+    "code": "FBP",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bangalore",
+    "name": "Fairway Business Park Bangalore"
+  },
+  {
+    "code": "FC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New Mexico",
+    "city": "Rio Rancho",
+    "name": "Fulcrum, Albuquerque"
+  },
+  {
+    "code": "FCC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Freedom Circle"
+  },
+  {
+    "code": "FCH",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Rexdale",
+    "name": "Field Sales Home, Canada"
+  },
+  {
+    "code": "FDM",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Virginia",
+    "city": "Reston",
+    "name": "Freedom Drive"
+  },
+  {
+    "code": "FE",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Fremont",
+    "name": "Fremont (Old)"
+  },
+  {
+    "code": "FI",
+    "region": "EMEA",
+    "country": "Finland",
+    "subdivision": "UUSIMAA",
+    "city": "Helsinki",
+    "name": "Itamerenkatu, Helsinki"
+  },
+  {
+    "code": "FIA",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Los Angeles",
+    "name": "Figueroa, Los Angeles"
+  },
+  {
+    "code": "FJL",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "London",
+    "name": "Jellicoe London UK"
+  },
+  {
+    "code": "FL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Florida (USA)",
+    "city": "Miami",
+    "name": "Florida (never used)"
+  },
+  {
+    "code": "FLK",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Kentucky",
+    "city": "Florence",
+    "name": "Florence Kentucky"
+  },
+  {
+    "code": "FM",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Folsom",
+    "name": "Folsom"
+  },
+  {
+    "code": "FNT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Francisco",
+    "name": "Front, San Francisco"
+  },
+  {
+    "code": "FP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "Lafayette",
+    "name": "Forest Park, Boulder"
+  },
+  {
+    "code": "FR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Fremont",
+    "name": "Fremont"
+  },
+  {
+    "code": "FRC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Virginia",
+    "city": "Fairfax",
+    "name": "Fairfax Corner, Fairfax"
+  },
+  {
+    "code": "FRN",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New Jersey",
+    "city": "Hampton",
+    "name": "Frontage Road"
+  },
+  {
+    "code": "FRO",
+    "region": "EMEA",
+    "country": "Finland",
+    "subdivision": "Satakunta",
+    "city": "Ulvila",
+    "name": "Friitala-talo Oy"
+  },
+  {
+    "code": "FS",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Field Sales, USA"
+  },
+  {
+    "code": "FSC",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Quebec",
+    "city": "Brossard",
+    "name": "Field Sales, Canada"
+  },
+  {
+    "code": "FSH",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Field Sales Home Office, USA"
+  },
+  {
+    "code": "FSM",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Milpitas",
+    "name": "Field Sales, Milpitas"
+  },
+  {
+    "code": "FTD",
+    "region": "EMEA",
+    "country": "Austria",
+    "subdivision": "Oberosterreich",
+    "city": "Linz",
+    "name": "Freistaedter, Linz"
+  },
+  {
+    "code": "FTH",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Pennsylvania",
+    "city": "King of Prussia",
+    "name": "Fifth, King of Prussia"
+  },
+  {
+    "code": "FTP",
+    "region": "EMEA",
+    "country": "Romania",
+    "subdivision": "Timis",
+    "city": "Timisoara City",
+    "name": "Fructus Plaza"
+  },
+  {
+    "code": "FU",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Guangdong Sheng",
+    "city": "Shenzhen",
+    "name": "Futian, Shenzhen"
+  },
+  {
+    "code": "FW",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Texas",
+    "city": "Fort Worth",
+    "name": "Alliance, Fort Worth"
+  },
+  {
+    "code": "FX",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Illinois",
+    "city": "Champaign",
+    "name": "Fox, Champaign"
+  },
+  {
+    "code": "FXH",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Flexential Hillsboro Colo"
+  },
+  {
+    "code": "GAN",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Yerushalayim",
+    "city": "Beit Shemesh",
+    "name": "Ganir, Beit Shemesh"
+  },
+  {
+    "code": "GCH",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Gyeongsangbugdo",
+    "city": "Gumi",
+    "name": "Century, Gumi"
+  },
+  {
+    "code": "GCR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New Mexico",
+    "city": "Rio Rancho",
+    "name": "Golf, Albuquerque"
+  },
+  {
+    "code": "GG",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "Colorado Springs",
+    "name": "Garden of the Gods"
+  },
+  {
+    "code": "GGN",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Delhi",
+    "city": "Gurgaon",
+    "name": "Gurgaon, Delhi"
+  },
+  {
+    "code": "GHS",
+    "region": "EMEA",
+    "country": "Romania",
+    "subdivision": "Bucuresti",
+    "city": "Bucharest",
+    "name": "GHS, Bucharest"
+  },
+  {
+    "code": "GL",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Fordingbridge",
+    "name": "Green Lane, Fordingbridge"
+  },
+  {
+    "code": "GLS",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Seoul Teugbyeolsi",
+    "city": "Gangnam-gu",
+    "name": "Glass Tower, Seoul"
+  },
+  {
+    "code": "GMO",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Munchen",
+    "name": "Ignite Munich Office"
+  },
+  {
+    "code": "GND",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Hsinchu (City)",
+    "city": "Gongdao",
+    "name": "Gongdao"
+  },
+  {
+    "code": "GNM",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Seoul Teugbyeolsi",
+    "city": "Seoul",
+    "name": "Gangnam, Seoul"
+  },
+  {
+    "code": "GPH",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Gyeongsangbugdo",
+    "city": "Gumi",
+    "name": "Palace Hotel, Gumi"
+  },
+  {
+    "code": "GR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Garrett, Santa Clara"
+  },
+  {
+    "code": "GRD",
+    "region": "AMER",
+    "country": "Argentina",
+    "subdivision": "Cordoba (Argentina)",
+    "city": "Cordoba",
+    "name": "Garden Center, Cordoba"
+  },
+  {
+    "code": "GRF",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Griffin, Hillsboro"
+  },
+  {
+    "code": "GRN",
+    "region": "EMEA",
+    "country": "Netherlands",
+    "subdivision": "Groningen",
+    "city": "Groningen",
+    "name": "Groningen Netherlands"
+  },
+  {
+    "code": "GRT",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Tel Aviv",
+    "city": "Tel Aviv",
+    "name": "Granulate TLV"
+  },
+  {
+    "code": "GSB",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "BEAVERTON",
+    "name": "Green Slope, Beaverton"
+  },
+  {
+    "code": "GSQ",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "Scotland",
+    "city": "Glasgow",
+    "name": "George Square, Glasgow"
+  },
+  {
+    "code": "GTC",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Beijing",
+    "name": "Global Trade Ctr, Beijing"
+  },
+  {
+    "code": "GTL",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Guangdong Sheng",
+    "city": "Tianhe District",
+    "name": "GT Land Plaza FSO Guangzhou"
+  },
+  {
+    "code": "GTP",
+    "region": null,
+    "country": null,
+    "subdivision": "Beijing Shi",
+    "city": "Chaoyang District",
+    "name": "Gemdale Times Plaza"
+  },
+  {
+    "code": "GTS",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Cambridge",
+    "name": "Gates, Cambridge"
+  },
+  {
+    "code": "GU",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Milano",
+    "city": "Milan",
+    "name": "Giovanni Udine, Milan"
+  },
+  {
+    "code": "GW",
+    "region": "APAC",
+    "country": "Singapore",
+    "subdivision": "Singapore",
+    "city": "Singapore",
+    "name": "Great World, Singapore"
+  },
+  {
+    "code": "GWS",
+    "region": "EMEA",
+    "country": "Netherlands",
+    "subdivision": "Noord-Holland",
+    "city": "Amsterdam",
+    "name": "Gatwickstraat"
+  },
+  {
+    "code": "GWY",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Jose",
+    "name": "Gateway, San Jose"
+  },
+  {
+    "code": "HA",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Haifa",
+    "city": "Haifa",
+    "name": "Matam, Haifa"
+  },
+  {
+    "code": "HAL",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hamerkaz",
+    "city": "Netanya",
+    "name": "Halilach"
+  },
+  {
+    "code": "HB",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Diego",
+    "name": "High Bluff, San Diego"
+  },
+  {
+    "code": "HBA",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Hillsboro Airport"
+  },
+  {
+    "code": "HBC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Florida",
+    "city": "Melbourne",
+    "name": "Harbor City, Melbourne FL"
+  },
+  {
+    "code": "HBP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Hudson",
+    "name": "Hudson Business Park"
+  },
+  {
+    "code": "HBZ",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Tel-Aviv",
+    "city": "Tel-Aviv",
+    "name": "Habarzel, Tel-Aviv"
+  },
+  {
+    "code": "HC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Thousand Oaks",
+    "name": "Hillcrest, Thousand Oaks"
+  },
+  {
+    "code": "HCI",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hefa",
+    "city": "Haifa",
+    "name": "Habana Caesarea Israel "
+  },
+  {
+    "code": "HCK",
+    "region": "EMEA",
+    "country": "Ukraine",
+    "subdivision": "Kyivs'ka Oblast",
+    "city": "Kiev",
+    "name": "Hrinchenko, Kiev"
+  },
+  {
+    "code": "HCL",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Hsinchu (City)",
+    "city": "Hsinchu",
+    "name": "HsinChu Lab Colo"
+  },
+  {
+    "code": "HD",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Hudson",
+    "name": "Hudson"
+  },
+  {
+    "code": "HDS",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Shanghai Shi",
+    "city": "Huangpu District",
+    "name": "Henderson 155"
+  },
+  {
+    "code": "HER",
+    "region": "EMEA",
+    "country": "Finland",
+    "subdivision": "Western Finland",
+    "city": "Tampere",
+    "name": "Hermia, Tampere"
+  },
+  {
+    "code": "HF",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Hawthorn Farm, Hillsboro"
+  },
+  {
+    "code": "HGP",
+    "region": "EMEA",
+    "country": "Poland",
+    "subdivision": "Pomerania",
+    "city": "Gdansk",
+    "name": "Habana Gdansk Poland"
+  },
+  {
+    "code": "HGT",
+    "region": "EMEA",
+    "country": "Netherlands",
+    "subdivision": "Noord-Brabant",
+    "city": "Eindhoven",
+    "name": "High Tech, Eindhoven"
+  },
+  {
+    "code": "HIF",
+    "region": null,
+    "country": null,
+    "subdivision": "Shanghai Shi",
+    "city": "Shanghai",
+    "name": "Huifeng, Shanghai"
+  },
+  {
+    "code": "HK",
+    "region": "APAC",
+    "country": "Hong Kong",
+    "subdivision": "Hong Kong Island",
+    "city": "Hong Kong",
+    "name": "Pacific Place, Hong Kong"
+  },
+  {
+    "code": "HKH",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Haifa",
+    "city": "Atlit",
+    "name": "Hana Koren, Atlit"
+  },
+  {
+    "code": "HL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Santa Barbara",
+    "name": "Hollister, Santa Barbara"
+  },
+  {
+    "code": "HLV",
+    "region": "EMEA",
+    "country": "Denmark",
+    "subdivision": "Region Hovedstaden",
+    "city": "Herlev",
+    "name": "Herlev"
+  },
+  {
+    "code": "HMN",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Tel-Aviv",
+    "city": "Herzliya",
+    "name": "Hamenofim, Herzliya"
+  },
+  {
+    "code": "HMR",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "British Columbia",
+    "city": "Vancouver",
+    "name": "Homer St"
+  },
+  {
+    "code": "HMS",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Bromley",
+    "name": "Homesdale, Bromley"
+  },
+  {
+    "code": "HMT",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Tel-Aviv",
+    "city": "Tel Aviv",
+    "name": "Hachashmonaim, Tel Aviv"
+  },
+  {
+    "code": "HNG",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Tel-Aviv",
+    "city": "Kfar Saba",
+    "name": "HaNagar Street"
+  },
+  {
+    "code": "HNS",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Tel-Aviv",
+    "city": "Tel Aviv",
+    "name": "HaNechoshet Street"
+  },
+  {
+    "code": "HQD",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Texas",
+    "city": "PLANO",
+    "name": "Headquarters Drive"
+  },
+  {
+    "code": "HRC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New Hampshire",
+    "city": "Merrimack",
+    "name": "Heron Cove, Merrimack"
+  },
+  {
+    "code": "HRK",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hamerkaz",
+    "city": "Ra'anana",
+    "name": "Harakefet, Ra'anana"
+  },
+  {
+    "code": "HRM",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "Fort Collins",
+    "name": "Harmony, Fort Collins"
+  },
+  {
+    "code": "HRN",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Virginia",
+    "city": "Herndon",
+    "name": "Herndon, Virginia"
+  },
+  {
+    "code": "HRP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Connecticut",
+    "city": "Stamford",
+    "name": "High Ridge Park Rd"
+  },
+  {
+    "code": "HTA",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Tel Aviv",
+    "city": "Tel Aviv",
+    "name": "Habana Tel Aviv Israel"
+  },
+  {
+    "code": "HTC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New York",
+    "city": "Hopewell Junction",
+    "name": "Houlihan Town Ctr, Hopewell"
+  },
+  {
+    "code": "HTK",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Xinjiang Uygur",
+    "city": "Urumqi",
+    "name": "Hoi Tak, Urumqi"
+  },
+  {
+    "code": "HUB",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Kentucky",
+    "city": "Louisville",
+    "name": "Hubbuch, Louisville"
+  },
+  {
+    "code": "HV",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Niedersachsen",
+    "city": "Hanover",
+    "name": "Hanover"
+  },
+  {
+    "code": "HVE",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Escondido",
+    "name": "Highland Valley, Escondido"
+  },
+  {
+    "code": "HVN",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Menlo Park",
+    "name": "Haven, Menlo Park"
+  },
+  {
+    "code": "HVS",
+    "region": "APAC",
+    "country": "Vietnam",
+    "subdivision": "Ha Noi",
+    "city": "Hanoi",
+    "name": "Hanoi Vietnam Spaces Belvedere"
+  },
+  {
+    "code": "HWC",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Buckinghamshire",
+    "name": "Marlow"
+  },
+  {
+    "code": "HWN",
+    "region": "EMEA",
+    "country": "Egypt",
+    "subdivision": "Al Qahirah",
+    "city": "Cairo",
+    "name": "Hadaak, Cairo"
+  },
+  {
+    "code": "HWP",
+    "region": "APAC",
+    "country": "Singapore",
+    "subdivision": "Singapore",
+    "city": "Singapore",
+    "name": "Haw Par, Singapore"
+  },
+  {
+    "code": "HWT",
+    "region": "APAC",
+    "country": "Australia",
+    "subdivision": "Victoria",
+    "city": "Melbourne",
+    "name": "HWT Tower, Southbank Melbourne"
+  },
+  {
+    "code": "HYU",
+    "region": null,
+    "country": null,
+    "subdivision": "Yunnan Sheng",
+    "city": "Kunming",
+    "name": "Huayu, Kunming"
+  },
+  {
+    "code": "HZ",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "North Carolina",
+    "city": "Raleigh",
+    "name": "Horizon, Raleigh"
+  },
+  {
+    "code": "IAF",
+    "region": "EMEA",
+    "country": "Romania",
+    "subdivision": "Galati",
+    "city": "Galati",
+    "name": "Iancu Fotea"
+  },
+  {
+    "code": "IAG",
+    "region": "AMER",
+    "country": "Brazil",
+    "subdivision": "Sao Paulo",
+    "city": "Sao Paulo",
+    "name": "Porto Alegre, Sao Paulo"
+  },
+  {
+    "code": "IAH",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Gujarat",
+    "city": "Ahmadabad",
+    "name": "Gujarat, Ahmadabad"
+  },
+  {
+    "code": "IAK",
+    "region": "APAC",
+    "country": "New Zealand",
+    "subdivision": "Auckland",
+    "city": "Auckland",
+    "name": "Club Tower, Auckland"
+  },
+  {
+    "code": "IAR",
+    "region": "AMER",
+    "country": "Argentina",
+    "subdivision": "Buenos Aires",
+    "city": "Buenos Aires",
+    "name": "Roque Saenz Pena, Buenos Aires"
+  },
+  {
+    "code": "IBA",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Du Parc, Bangalore "
+  },
+  {
+    "code": "IBC",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Basingstoke",
+    "name": "Intec Business Center"
+  },
+  {
+    "code": "IBE",
+    "region": "AMER",
+    "country": "Argentina",
+    "subdivision": "Buenos Aires",
+    "city": "Buenos Aires",
+    "name": "Olga Cossettini, Buenos Aires"
+  },
+  {
+    "code": "IBG",
+    "region": "AMER",
+    "country": "Colombia",
+    "subdivision": "Dist CapitlDeBogota",
+    "city": "Bogota",
+    "name": "Bogota"
+  },
+  {
+    "code": "IBGS",
+    "region": "AMER",
+    "country": "Colombia",
+    "subdivision": "Distrito Capital de Bogota",
+    "city": "Bogota",
+    "name": "Shiva, Bogota"
+  },
+  {
+    "code": "IBH",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": null,
+    "city": "Reading",
+    "name": "Berkshire, England"
+  },
+  {
+    "code": "IBJ",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Beijing",
+    "name": "Kerry Centre, Beijing"
+  },
+  {
+    "code": "IBK",
+    "region": "APAC",
+    "country": "Thailand",
+    "subdivision": "Krung Thep (Bangkok)",
+    "city": "Bangkok",
+    "name": "M Thai Tower, Bangkok"
+  },
+  {
+    "code": "IBLC",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Beijing",
+    "name": "Landmark, Beijing"
+  },
+  {
+    "code": "IBS",
+    "region": "EMEA",
+    "country": "Belarus",
+    "subdivision": "Minskaya",
+    "city": "Minsk",
+    "name": "Minsk"
+  },
+  {
+    "code": "IBY",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "London",
+    "name": "Berkley Square, London"
+  },
+  {
+    "code": "IBZ",
+    "region": "AMER",
+    "country": "Brazil",
+    "subdivision": "Sao Paulo",
+    "city": "Sao Paulo",
+    "name": "Field Sales, Sao Paulo"
+  },
+  {
+    "code": "ICB",
+    "region": "APAC",
+    "country": "Hong Kong",
+    "subdivision": "Hong Kong Island",
+    "city": "Hong Kong",
+    "name": "Causeway Bay, Hong Kong"
+  },
+  {
+    "code": "ICC",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "West Bengal",
+    "city": "Kolkata",
+    "name": "Appejay, Kolkata"
+  },
+  {
+    "code": "ICD",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Sichuan Sheng",
+    "city": "Chengdu",
+    "name": "Crowne Plaza, Chengdu"
+  },
+  {
+    "code": "ICH",
+    "region": "EMEA",
+    "country": "Switzerland",
+    "subdivision": "Zurich",
+    "city": "Winterthur",
+    "name": "Winterthur, Zurich"
+  },
+  {
+    "code": "ICI",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Tamil Nadu",
+    "city": "Chennai",
+    "name": "DBS, Chennai"
+  },
+  {
+    "code": "ICO",
+    "region": "EMEA",
+    "country": "Denmark",
+    "subdivision": "Region Hovedstaden",
+    "city": "Copenhagen",
+    "name": "Glentevej, Copenhagen"
+  },
+  {
+    "code": "ICQ",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Chongqing Shi",
+    "city": "Chongqing",
+    "name": "Metropolitan Tower, Chongqing"
+  },
+  {
+    "code": "ICW",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Ohio",
+    "city": "New Albany",
+    "name": "Innovation Campus Way"
+  },
+  {
+    "code": "IDEW",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Winnersh Triangle",
+    "name": "IDS, Winnersh"
+  },
+  {
+    "code": "IDI",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Irvine",
+    "name": "Michelson Drive Irvine"
+  },
+  {
+    "code": "IDK",
+    "region": "EMEA",
+    "country": "Denmark",
+    "subdivision": "Region Hovedstaden",
+    "city": "Lyngby",
+    "name": "Lyngby, Copenhagen"
+  },
+  {
+    "code": "IDN",
+    "region": "EMEA",
+    "country": "Sweden",
+    "subdivision": "Sk�ne",
+    "city": "Lund",
+    "name": "Ideon, Lund"
+  },
+  {
+    "code": "IDT",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Munich",
+    "name": "Germering, Munich"
+  },
+  {
+    "code": "IDU",
+    "region": "EMEA",
+    "country": "Finland",
+    "subdivision": "UUSIMAA",
+    "city": "Helsinki",
+    "name": "Italahdenkatu"
+  },
+  {
+    "code": "IFA",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Hiroshima",
+    "city": "Fukuyama",
+    "name": "Fukuyama"
+  },
+  {
+    "code": "IFC",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Shanghai Shi",
+    "city": "Pudong",
+    "name": "International Finance Center"
+  },
+  {
+    "code": "IFX",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Kanagawa",
+    "city": "Atsugi",
+    "name": "Atsugi FSO Campus"
+  },
+  {
+    "code": "IFZ",
+    "region": null,
+    "country": null,
+    "subdivision": "Fujian Sheng",
+    "city": "Fuzhou",
+    "name": "Worldwide Plaza, Fuzhou"
+  },
+  {
+    "code": "IGA",
+    "region": "AMER",
+    "country": "Mexico",
+    "subdivision": "Jalisco",
+    "city": "Guadalajara",
+    "name": "Guadalajara"
+  },
+  {
+    "code": "IGE",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Munich",
+    "name": "Igenio, Munich"
+  },
+  {
+    "code": "IGK",
+    "region": "EMEA",
+    "country": "Poland",
+    "subdivision": "Pomerania",
+    "city": "Gdansk",
+    "name": "Intel Park, Gdansk"
+  },
+  {
+    "code": "IGL",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "London",
+    "name": "Ignite London"
+  },
+  {
+    "code": "IGR",
+    "region": "EMEA",
+    "country": "Greece",
+    "subdivision": "Attiki",
+    "city": "Athens",
+    "name": "Kifissias, Athens"
+  },
+  {
+    "code": "IGS",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hamerkaz",
+    "city": "Givat Shmuel",
+    "name": "Givat Shmuel, Israel"
+  },
+  {
+    "code": "IGZ",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Guangdong Sheng",
+    "city": "Guangzhou",
+    "name": "CITIC Plaza, Guangzhou"
+  },
+  {
+    "code": "IHB",
+    "region": null,
+    "country": null,
+    "subdivision": "Heilongjiang Sheng",
+    "city": "Harbin",
+    "name": "Orient Plaza, Harbin"
+  },
+  {
+    "code": "IHC",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Hachiohji",
+    "name": "Hachiohji, Tokyo"
+  },
+  {
+    "code": "IHGL",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Hallbergmoos",
+    "name": "Hallbergmoos"
+  },
+  {
+    "code": "IHI",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hamerkaz",
+    "city": "Herzelia",
+    "name": "Herzelia"
+  },
+  {
+    "code": "IHN",
+    "region": "APAC",
+    "country": "Vietnam",
+    "subdivision": "Ha Noi, thu do",
+    "city": "Hanoi",
+    "name": "Tung Shing, Hanoi"
+  },
+  {
+    "code": "IHO",
+    "region": "APAC",
+    "country": "Vietnam",
+    "subdivision": "Thanh Pho Ho Chi Minh",
+    "city": "Ho Chi Minh City",
+    "name": "Metropolitan, Ho Chi Minh"
+  },
+  {
+    "code": "IHP",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Hartley Wintney",
+    "name": "Hartley Wintney, Hampshire"
+  },
+  {
+    "code": "IJKK",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Ibaraki",
+    "city": "Tsukuba",
+    "name": "Tsukuba, Ibaraki"
+  },
+  {
+    "code": "IJN",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Shandong Sheng",
+    "city": "Jinan",
+    "name": "CITIC Plaza, Jinan"
+  },
+  {
+    "code": "IJT",
+    "region": "APAC",
+    "country": "Indonesia",
+    "subdivision": "Jakarta Raya",
+    "city": "Jakarta",
+    "name": "Wisma Danamon, Jakarta"
+  },
+  {
+    "code": "IK",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Seoul Teugbyeolsi",
+    "city": "Seoul",
+    "name": "Daehan, Seoul"
+  },
+  {
+    "code": "IKA",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hamerkaz",
+    "city": "Kiryat Aryeh",
+    "name": "Hamerkaz, Israel"
+  },
+  {
+    "code": "IKCF",
+    "region": "EMEA",
+    "country": "Sweden",
+    "subdivision": "Stockholm",
+    "city": "Kista",
+    "name": "Kista Isafjordsgaten"
+  },
+  {
+    "code": "IKF",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Saitama",
+    "city": "Kamifukuoka-Shi",
+    "name": "Kamifukuoka, Saitama"
+  },
+  {
+    "code": "IKR",
+    "region": "APAC",
+    "country": "Pakistan",
+    "subdivision": "Sindh",
+    "city": "Karachi",
+    "name": "Kehkashan, Karachi"
+  },
+  {
+    "code": "IKSL",
+    "region": "EMEA",
+    "country": "Sweden",
+    "subdivision": "Stockholm",
+    "city": "Kisa",
+    "name": "Level One, Kista"
+  },
+  {
+    "code": "IKV",
+    "region": "EMEA",
+    "country": "Ukraine",
+    "subdivision": "Kyivs'ka Oblast",
+    "city": "Kiev",
+    "name": "Podil, Kiev"
+  },
+  {
+    "code": "IKW",
+    "region": "APAC",
+    "country": "Hong Kong",
+    "subdivision": "Hong Kong Island",
+    "city": "Hong Kong",
+    "name": "Kowloon, Hong Kong"
+  },
+  {
+    "code": "ILU",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Ile-de-France",
+    "city": "Les Ulis Cedex",
+    "name": "Les Ulis, Paris"
+  },
+  {
+    "code": "IMB",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Maharashtra",
+    "city": "Mumbai",
+    "name": "Bandra-Kurla, Mumbai"
+  },
+  {
+    "code": "IMC",
+    "region": "AMER",
+    "country": "Mexico",
+    "subdivision": "Ciudad de Mexico",
+    "city": "Mexico City",
+    "name": "Esmeralda, Mexico City"
+  },
+  {
+    "code": "IMD",
+    "region": "EMEA",
+    "country": "Spain",
+    "subdivision": "Madrid",
+    "city": "Madrid",
+    "name": "Telecom Espana, Madrid"
+  },
+  {
+    "code": "IMDS",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Tamil Nadu",
+    "city": "Madras",
+    "name": "DBS, Madras"
+  },
+  {
+    "code": "IME",
+    "region": "APAC",
+    "country": "Australia",
+    "subdivision": "Victoria",
+    "city": "Melbourne",
+    "name": "Kilda, Melbourne"
+  },
+  {
+    "code": "IMG",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hazafon",
+    "city": "Migdal Tefen",
+    "name": "Migdal Tefen"
+  },
+  {
+    "code": "IMI",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Milano",
+    "city": "Milano",
+    "name": "Milanofiori, Milan"
+  },
+  {
+    "code": "IMO",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Milano",
+    "city": "Milan",
+    "name": "Fermi, Milan"
+  },
+  {
+    "code": "IMR",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Ile-de-France",
+    "city": "Paris",
+    "name": "Montrouge, Paris"
+  },
+  {
+    "code": "IMT",
+    "region": "AMER",
+    "country": "Mexico",
+    "subdivision": "Nuevo Leon",
+    "city": "San Pedro Garza Garcia",
+    "name": "San Pedro, Monterrey"
+  },
+  {
+    "code": "IMU",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Munich",
+    "name": "Feldkirchen, Munich"
+  },
+  {
+    "code": "IN",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Diego",
+    "name": "Innovation, San Diego"
+  },
+  {
+    "code": "INA",
+    "region": "EMEA",
+    "country": "Netherlands",
+    "subdivision": "Noord-Holland",
+    "city": "Amsterdam",
+    "name": "Schiphol-Rijk Warehouse"
+  },
+  {
+    "code": "INC",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Delhi",
+    "city": "New Delhi",
+    "name": "Incube, New Delhi"
+  },
+  {
+    "code": "IND",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Delhi",
+    "city": "New Delhi",
+    "name": "GEC, New Dehli"
+  },
+  {
+    "code": "INDX",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "India FSO Old"
+  },
+  {
+    "code": "ING",
+    "region": null,
+    "country": null,
+    "subdivision": "Jiangsu Sheng",
+    "city": "Nanjing",
+    "name": "WTC, Nanjing"
+  },
+  {
+    "code": "INN",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Ibaraki",
+    "city": "Tsukuba",
+    "name": "Innovation, Tsukuba"
+  },
+  {
+    "code": "INO",
+    "region": "EMEA",
+    "country": "Norway",
+    "subdivision": "Viken",
+    "city": "Skjetten",
+    "name": "Skjetten, Oslo"
+  },
+  {
+    "code": "INS",
+    "region": "APAC",
+    "country": "Australia",
+    "subdivision": "New South Wales",
+    "city": "Sydney",
+    "name": "Miller, North Sydney"
+  },
+  {
+    "code": "INV",
+    "region": "EMEA",
+    "country": "Austria",
+    "subdivision": "Karnten",
+    "city": "Villach",
+    "name": "Innovative, Villach"
+  },
+  {
+    "code": "IOK",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Munich",
+    "name": "Oktavian, Munich"
+  },
+  {
+    "code": "IOR",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Ile-de-France",
+    "city": "Orsay",
+    "name": "Orsay, Paris"
+  },
+  {
+    "code": "IOS",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Osaka",
+    "city": "Toyonaka-Shi",
+    "name": "IOS, Osaka"
+  },
+  {
+    "code": "IPB",
+    "region": "EMEA",
+    "country": "Hungary",
+    "subdivision": "Budapest",
+    "city": "Budapest",
+    "name": "Infopark, Budapest"
+  },
+  {
+    "code": "IQ",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "Colorado Springs",
+    "name": "InterQuest, Colorado Springs"
+  },
+  {
+    "code": "IR",
+    "region": "EMEA",
+    "country": "Ireland",
+    "subdivision": "Kildare",
+    "city": "Leixlip",
+    "name": "Leixlip"
+  },
+  {
+    "code": "IRD",
+    "region": "AMER",
+    "country": "Brazil",
+    "subdivision": "Rio De Janeiro",
+    "city": "Rio de Janiero",
+    "name": "Andar, Rio de Janiero"
+  },
+  {
+    "code": "ISA",
+    "region": "EMEA",
+    "country": "South Africa",
+    "subdivision": "Gauteng",
+    "city": "Woodmead",
+    "name": "Woodlands, Woodmead"
+  },
+  {
+    "code": "ISB",
+    "region": "APAC",
+    "country": "Indonesia",
+    "subdivision": "Jawa Timur",
+    "city": "Surabaya",
+    "name": "Wisma Dharmala Sakti, Surabaya"
+  },
+  {
+    "code": "ISD",
+    "region": "APAC",
+    "country": "Australia",
+    "subdivision": "New South Wales",
+    "city": "Sydney",
+    "name": "AGL Centre, Sydney"
+  },
+  {
+    "code": "ISGL",
+    "region": "APAC",
+    "country": "Singapore",
+    "subdivision": "Singapore",
+    "city": "Singapore",
+    "name": "United Square, Singapore"
+  },
+  {
+    "code": "ISGS",
+    "region": "APAC",
+    "country": "Singapore",
+    "subdivision": "Singapore",
+    "city": "Singapore",
+    "name": "Beach, Singapore"
+  },
+  {
+    "code": "ISHI",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Kanagawa",
+    "city": "Yokohama-Shi",
+    "name": "Shinyokohama, Yokohama"
+  },
+  {
+    "code": "ISL",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Seoul Teugbyeolsi",
+    "city": "Yeongdeungpo-ku",
+    "name": "Yoido, Seoul"
+  },
+  {
+    "code": "ISO",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Provence-Alpes-Cote-",
+    "city": "Sophia Antipolis",
+    "name": "Sophia Antipolis, Nice"
+  },
+  {
+    "code": "ISP",
+    "region": "EMEA",
+    "country": "Sweden",
+    "subdivision": "Stockholm",
+    "city": "Spanga",
+    "name": "Spanga, Stockholm"
+  },
+  {
+    "code": "ISS",
+    "region": "EMEA",
+    "country": "Sweden",
+    "subdivision": "Stockholm",
+    "city": "Stockholm",
+    "name": "Shiva, Stockholm"
+  },
+  {
+    "code": "ISSO",
+    "region": "APAC",
+    "country": "Singapore",
+    "subdivision": "Singapore",
+    "city": "Singapore",
+    "name": "Suntec, Singapore"
+  },
+  {
+    "code": "ISW",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Swindon",
+    "name": "Swindon"
+  },
+  {
+    "code": "ISY",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Liaoning Sheng",
+    "city": "Shenyang",
+    "name": "Hua Xin, Shenyang"
+  },
+  {
+    "code": "ITO",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Shinjuku",
+    "name": "Tokyo I-Land Tower"
+  },
+  {
+    "code": "ITP",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Tech Park, Bangalore "
+  },
+  {
+    "code": "ITR",
+    "region": "EMEA",
+    "country": "Turkiye",
+    "subdivision": "Istanbul",
+    "city": "Istanbul",
+    "name": "Istanbul"
+  },
+  {
+    "code": "ITT",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Delhi",
+    "city": "New Delhi",
+    "name": "ITT, New Delhi"
+  },
+  {
+    "code": "ITU",
+    "region": "EMEA",
+    "country": "Turkiye",
+    "subdivision": "Istanbul",
+    "city": "Istanbul",
+    "name": "ITU, Istanbul"
+  },
+  {
+    "code": "ITWC",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Taipei (City)",
+    "city": "Taipei",
+    "name": "Chips, Taipei"
+  },
+  {
+    "code": "ITWL",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Taipei",
+    "city": "Taipei",
+    "name": "Level One, Taipei"
+  },
+  {
+    "code": "IUT",
+    "region": "EMEA",
+    "country": "Netherlands",
+    "subdivision": "Utrecht",
+    "city": "Nieuwegein",
+    "name": "Shiva, Utrecht"
+  },
+  {
+    "code": "IWA",
+    "region": "EMEA",
+    "country": "Poland",
+    "subdivision": "Mazovia",
+    "city": "Warsaw",
+    "name": "Jerozolimskie, Warsaw"
+  },
+  {
+    "code": "IWBG",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Mansfield",
+    "name": "Weighbridge, Mansfield"
+  },
+  {
+    "code": "IWCC",
+    "region": "EMEA",
+    "country": "Sweden",
+    "subdivision": "Stockholm",
+    "city": "Kista",
+    "name": "IWCC, Kista"
+  },
+  {
+    "code": "IWH",
+    "region": null,
+    "country": null,
+    "subdivision": "Hubei Sheng",
+    "city": "Wuhan",
+    "name": "White Rose, Wuhan"
+  },
+  {
+    "code": "IWHT",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "Scotland",
+    "city": "Glasgow",
+    "name": "Wheatsheaf, East Kilbride"
+  },
+  {
+    "code": "IWO",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Wokingham",
+    "name": "Shiva, Wokingham"
+  },
+  {
+    "code": "IWP",
+    "region": "EMEA",
+    "country": "Poland",
+    "subdivision": "Mazovia",
+    "city": "Warsaw",
+    "name": "Intel Warsaw Poland"
+  },
+  {
+    "code": "IXA",
+    "region": null,
+    "country": null,
+    "subdivision": "Shaanxi Sheng",
+    "city": "Xian",
+    "name": "Zhongda, Xian"
+  },
+  {
+    "code": "JF",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Jones Farm, Hillsboro"
+  },
+  {
+    "code": "JJN",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Beijing",
+    "name": "Jin Jiang, Beijing"
+  },
+  {
+    "code": "JN",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Irvine",
+    "name": "Jenner, Irvine"
+  },
+  {
+    "code": "JNW",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Jayamma Nagappa, Bangalore "
+  },
+  {
+    "code": "JP",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Setagaya-Ku",
+    "name": "Japan, Tokyo"
+  },
+  {
+    "code": "JR",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Yerushalayim",
+    "city": "Jerusalem",
+    "name": "Jerusalem"
+  },
+  {
+    "code": "JRU",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Kaohsiung (City)",
+    "city": "Kaohsiung",
+    "name": "Jiouru, Kaohsiung"
+  },
+  {
+    "code": "JT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Waltham",
+    "name": "Jupiter Tech, Waltham"
+  },
+  {
+    "code": "JVP",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Yerushalayim",
+    "city": "Jerusalem",
+    "name": "Margalit Startup City Jerusalem"
+  },
+  {
+    "code": "KAR",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Tel-Aviv",
+    "city": "Herzliya",
+    "name": "Karo, Herzliya"
+  },
+  {
+    "code": "KBN",
+    "region": "EMEA",
+    "country": "Sweden",
+    "subdivision": "Stockholm",
+    "city": "Stockholm",
+    "name": "Kungsbron"
+  },
+  {
+    "code": "KBP",
+    "region": "EMEA",
+    "country": "Ireland",
+    "subdivision": "Wicklow",
+    "city": "Bray",
+    "name": "Kilarney Business Park, Bray"
+  },
+  {
+    "code": "KBR",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Sachsen",
+    "city": "Dresden",
+    "name": "Koenigsbruecker"
+  },
+  {
+    "code": "KCV",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hazafon",
+    "city": "Yokneam",
+    "name": "Kochav, Yokneam"
+  },
+  {
+    "code": "KH",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Moskva",
+    "city": "Moscow",
+    "name": "Krylatsky Hills, Moscow"
+  },
+  {
+    "code": "KIDC",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Seoul Teugbyeolsi",
+    "city": "Kangnam-Ku",
+    "name": "KIDC, Seoul"
+  },
+  {
+    "code": "KL",
+    "region": "EMEA",
+    "country": "Lithuania",
+    "subdivision": "Vilniaus Apskritis",
+    "city": "Vilnius",
+    "name": "Kalvariju, Vilnius"
+  },
+  {
+    "code": "KLN",
+    "region": "APAC",
+    "country": "Singapore",
+    "subdivision": "Singapore",
+    "city": "Singapore",
+    "name": "Kallang, Singapore"
+  },
+  {
+    "code": "KLO",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Nizhegorod",
+    "city": "Nizhny Novgorod Oblast",
+    "name": "Korolenko"
+  },
+  {
+    "code": "KLT",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Telangana",
+    "city": "Hyderabad",
+    "name": "Kapil Towers"
+  },
+  {
+    "code": "KM",
+    "region": "APAC",
+    "country": "Malaysia",
+    "subdivision": "Kedah",
+    "city": "Kulim",
+    "name": "Kulim"
+  },
+  {
+    "code": "KMG",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Koramangala, Bangalore "
+  },
+  {
+    "code": "KN",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Hudson",
+    "name": "Kane, Hudson"
+  },
+  {
+    "code": "KPA",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Tamil Nadu",
+    "city": "Chennai",
+    "name": "Kuppu Arcade, Chennai"
+  },
+  {
+    "code": "KPF",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Waterloo",
+    "name": "Kumpf Drive"
+  },
+  {
+    "code": "KPL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Illinois",
+    "city": "Lake Zurich",
+    "name": "Kemper Lakes, Lake Zurich"
+  },
+  {
+    "code": "KPT",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Guangdong Sheng",
+    "city": "Shenzhen",
+    "name": "Kerry Plaza Tower 3"
+  },
+  {
+    "code": "KRD",
+    "region": "APAC",
+    "country": "Hong Kong",
+    "subdivision": "Hong Kong Island",
+    "city": "Hong Kong",
+    "name": "King's Road"
+  },
+  {
+    "code": "KSP",
+    "region": "EMEA",
+    "country": "Denmark",
+    "subdivision": "Region Hovedstaden",
+    "city": "Smorum",
+    "name": "Kong Svends, Smorum"
+  },
+  {
+    "code": "KST",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Baden Wurttemberg",
+    "city": "Stuttgart",
+    "name": "Koningstrasse, Stuttgart"
+  },
+  {
+    "code": "KUM",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Waterloo",
+    "name": "Kumpf Drive - Inactive"
+  },
+  {
+    "code": "KWN",
+    "region": "APAC",
+    "country": "Hong Kong",
+    "subdivision": "Hong Kong Island",
+    "city": "Kowloon",
+    "name": "Kwun Tong Road"
+  },
+  {
+    "code": "KWR",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Nordrhein-Westfalen",
+    "city": "Ratingen",
+    "name": "Kaiserwerther Strasse"
+  },
+  {
+    "code": "KWTC",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Seoul Teugbyeolsi",
+    "city": "Kangnam-Ku",
+    "name": "World Trade Center, Seoul"
+  },
+  {
+    "code": "KZB",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Krailling",
+    "name": "Konrad Zuse Bogen 4"
+  },
+  {
+    "code": "LC",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "HaDarom",
+    "city": "Qiryat Gat",
+    "name": "Lachish, Qiryat Gat"
+  },
+  {
+    "code": "LCF",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Lab Colocation Facilities US"
+  },
+  {
+    "code": "LCV",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "Louisville",
+    "name": "Louisville, Boulder"
+  },
+  {
+    "code": "LDC",
+    "region": "AMER",
+    "country": "Venezuela",
+    "subdivision": "Distrito Federal (Venezuela)",
+    "city": "Caracas",
+    "name": "Centro Lido, Caracas"
+  },
+  {
+    "code": "LED",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Sankt-Peterburg",
+    "city": "St. Petersburg",
+    "name": "Leninsky, St. Petersburg"
+  },
+  {
+    "code": "LF",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Virginia",
+    "city": "CHANTILLY",
+    "name": "Lafayette, Chantilly"
+  },
+  {
+    "code": "LGC",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Ile-de-France",
+    "city": "La Garenne Colombes",
+    "name": "La Garenne Columbes, Paris"
+  },
+  {
+    "code": "LGS",
+    "region": "EMEA",
+    "country": "Portugal",
+    "subdivision": "Lisboa",
+    "city": "Porto Salvo",
+    "name": "Lagoas Park"
+  },
+  {
+    "code": "LGT",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Kanata",
+    "name": "Legget Dr, Ottawa"
+  },
+  {
+    "code": "LGX",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Uttar Pradesh",
+    "city": "Noida",
+    "name": "Logix, Noida"
+  },
+  {
+    "code": "LHB",
+    "region": "EMEA",
+    "country": "Denmark",
+    "subdivision": "Region Nordjylland",
+    "city": "Norresundby",
+    "name": "Lindholm Brygge, Norresundby"
+  },
+  {
+    "code": "LHR",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Brighton",
+    "name": "Lanchester House"
+  },
+  {
+    "code": "LIB",
+    "region": "EMEA",
+    "country": "Lebanon",
+    "subdivision": "Bayrut",
+    "city": "Beirut",
+    "name": "Liberty, Beirut"
+  },
+  {
+    "code": "LIL",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Neubiberg",
+    "name": "Lilienthalstrasse"
+  },
+  {
+    "code": "LIS",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Baden Wurttemberg",
+    "city": "Ulm",
+    "name": "Lise, Ulm"
+  },
+  {
+    "code": "LKA",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Texas",
+    "city": "Austin",
+    "name": "Lake Austin"
+  },
+  {
+    "code": "LKB",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Shaanxi Sheng",
+    "city": "Xi'an City",
+    "name": "Linkai International Building"
+  },
+  {
+    "code": "LKN",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "Broomfield",
+    "name": "Interlocken"
+  },
+  {
+    "code": "LMK",
+    "region": "EMEA",
+    "country": "Nigeria",
+    "subdivision": "Lagos",
+    "city": "Victoria Island",
+    "name": "Landmark, Lagos"
+  },
+  {
+    "code": "LND",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Berlin",
+    "city": "Berlin",
+    "name": "Linden, Berlin"
+  },
+  {
+    "code": "LNS",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Hessen",
+    "city": "Frankfurt",
+    "name": "Lyoner Strasse"
+  },
+  {
+    "code": "LOC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Sacramento",
+    "name": "Sacramento"
+  },
+  {
+    "code": "LPK",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Moskva",
+    "city": "Moscow",
+    "name": "Leninsky Prospekt"
+  },
+  {
+    "code": "LSC",
+    "region": "EMEA",
+    "country": "Switzerland",
+    "subdivision": "Geneve",
+    "city": "Geneva",
+    "name": "Louis-Casai, Geneva"
+  },
+  {
+    "code": "LSK",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Diego",
+    "name": "Lusk, San Diego"
+  },
+  {
+    "code": "LTT",
+    "region": "APAC",
+    "country": "Vietnam",
+    "subdivision": "Ha Noi, thu do",
+    "city": "Hanoi",
+    "name": "Ly Thai To"
+  },
+  {
+    "code": "LUC",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Aichi",
+    "city": "Nagoya",
+    "name": "Lucent, Nagoya"
+  },
+  {
+    "code": "LV",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Livermore",
+    "name": "Livermore"
+  },
+  {
+    "code": "LW",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Lowell",
+    "name": "Lowell"
+  },
+  {
+    "code": "LYN",
+    "region": "EMEA",
+    "country": "Denmark",
+    "subdivision": "Region Hovedstaden",
+    "city": "Lyngby",
+    "name": "Lyngby"
+  },
+  {
+    "code": "LZK",
+    "region": "EMEA",
+    "country": "Poland",
+    "subdivision": "Pomerania",
+    "city": "Gdynia",
+    "name": "Luzycka, Gdynia"
+  },
+  {
+    "code": "MA",
+    "region": "EMEA",
+    "country": "Spain",
+    "subdivision": "Madrid",
+    "city": "Madrid",
+    "name": "Nunez Balboa, Madrid"
+  },
+  {
+    "code": "MAR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Illinois",
+    "city": "Schaumburg",
+    "name": "Martingale Rd"
+  },
+  {
+    "code": "MAT",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Quebec",
+    "city": "Brossard",
+    "name": "Matte, Brossard"
+  },
+  {
+    "code": "MBS",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Manhattan Beach",
+    "name": "Manhattan Beach Studio"
+  },
+  {
+    "code": "MCC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Milpitas",
+    "name": "McCarthy Blvd"
+  },
+  {
+    "code": "MCH",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Taipei",
+    "city": "Taipei",
+    "name": "Min-Chuan, Taipei"
+  },
+  {
+    "code": "MCT",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Brighton",
+    "name": "Mocatta House"
+  },
+  {
+    "code": "MDC",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Maharashtra",
+    "city": "Mumbai",
+    "name": "Mahape, Mumbai"
+  },
+  {
+    "code": "MDI",
+    "region": "EMEA",
+    "country": "Egypt",
+    "subdivision": "Al Qahirah",
+    "city": "Cairo",
+    "name": "Maadi Tech, Cairo"
+  },
+  {
+    "code": "MDL",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Novosibirsk",
+    "city": "Academic City",
+    "name": "Musy Dzhalilya, Novosibirsk"
+  },
+  {
+    "code": "ME",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Meade, Santa Clara"
+  },
+  {
+    "code": "MEI",
+    "region": "APAC",
+    "country": "Malaysia",
+    "subdivision": "Kuala Lumpur",
+    "city": "Kuala Lumpur",
+    "name": "Menara IGB"
+  },
+  {
+    "code": "MF",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Fremont",
+    "name": "Mission Falls, Fremont"
+  },
+  {
+    "code": "MG",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Oakmead, Santa Clara"
+  },
+  {
+    "code": "MGD",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Munchen",
+    "name": "Munchen Germany Design Office"
+  },
+  {
+    "code": "MGT",
+    "region": "APAC",
+    "country": "Malaysia",
+    "subdivision": "Pulau Pinang",
+    "city": "George Town",
+    "name": "Menara KWSP"
+  },
+  {
+    "code": "MGV",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New Jersey",
+    "city": "Morganville",
+    "name": "Morganville, New Jersey"
+  },
+  {
+    "code": "MGW",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "British Columbia",
+    "city": "Vancouver",
+    "name": "Marine Gateway"
+  },
+  {
+    "code": "MI",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Mission, Santa Clara"
+  },
+  {
+    "code": "MIC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Mission College Blvd Leased IN"
+  },
+  {
+    "code": "MIL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Mission College Blvd Leased"
+  },
+  {
+    "code": "MIV",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Mission Viejo",
+    "name": "Mission Viejo, Los Angeles"
+  },
+  {
+    "code": "MKG",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Ibaraki",
+    "city": "Tsukuba",
+    "name": "Miyukigaoka, Tsukuba"
+  },
+  {
+    "code": "MKM",
+    "region": "EMEA",
+    "country": "Ukraine",
+    "subdivision": "Kyivs'ka Oblast",
+    "city": "Kiev",
+    "name": "Mikom, Kiev"
+  },
+  {
+    "code": "MKT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Francisco",
+    "name": "Market, San Francisco"
+  },
+  {
+    "code": "MLO",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Milano",
+    "city": "Milan",
+    "name": "Milano (DUPE)"
+  },
+  {
+    "code": "MLP",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Egham",
+    "name": "Meadlake Place, Egham"
+  },
+  {
+    "code": "MLS",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Tamil Nadu",
+    "city": "Mylapore, Chennai",
+    "name": "Amara MLS, Chennai"
+  },
+  {
+    "code": "MMB",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hamerkaz",
+    "city": "Raanana",
+    "name": "Millennium Building"
+  },
+  {
+    "code": "MMS",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Marblehead",
+    "name": "Marblehead Market Square"
+  },
+  {
+    "code": "MN",
+    "region": "APAC",
+    "country": "Philippines",
+    "subdivision": "Region",
+    "city": "Makati",
+    "name": "Makati, Manila"
+  },
+  {
+    "code": "MNG",
+    "region": null,
+    "country": null,
+    "subdivision": "Shanghai Shi",
+    "city": "Shanghai",
+    "name": "Minhang, Shanghai"
+  },
+  {
+    "code": "MNP",
+    "region": "APAC",
+    "country": "Indonesia",
+    "subdivision": "Jakarta Raya",
+    "city": "Jakarta",
+    "name": "Menara Palma (McAfee)"
+  },
+  {
+    "code": "MNT",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "London",
+    "name": "Monument, London"
+  },
+  {
+    "code": "MOT",
+    "region": "AMER",
+    "country": "Mexico",
+    "subdivision": "Jalisco",
+    "city": "Guadalajara",
+    "name": "Mariano Otero, Guadalajara"
+  },
+  {
+    "code": "MPK",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Texas",
+    "city": "Austin",
+    "name": "Museum Park"
+  },
+  {
+    "code": "MR",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hamerkaz",
+    "city": "Ra'anana",
+    "name": "Millennium, Ra'anana"
+  },
+  {
+    "code": "MRC",
+    "region": "AMER",
+    "country": "Brazil",
+    "subdivision": "Sao Paulo",
+    "city": "Campinas",
+    "name": "Marechal, Campinas"
+  },
+  {
+    "code": "MRG",
+    "region": "AMER",
+    "country": "Argentina",
+    "subdivision": "Cordoba (Argentina)",
+    "city": "Cordoba",
+    "name": "Miragolf, Cordoba"
+  },
+  {
+    "code": "MRS",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Toronto",
+    "name": "MARS, Toronto"
+  },
+  {
+    "code": "MS",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Moskva",
+    "city": "Moscow",
+    "name": "Sokol, Moscow"
+  },
+  {
+    "code": "MSA",
+    "region": "APAC",
+    "country": "Malaysia",
+    "subdivision": "Kuala Lumpur",
+    "city": "Kuala Lumpur",
+    "name": "Wisma Semantan, Kuala Lumpur"
+  },
+  {
+    "code": "MSC",
+    "region": "APAC",
+    "country": "Malaysia",
+    "subdivision": "Selangor",
+    "city": "Cyberjaya",
+    "name": "MSC, Cyberjaya"
+  },
+  {
+    "code": "MT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Rancho Cordova",
+    "name": "Rancho Cordova, Santa Clara"
+  },
+  {
+    "code": "MTC",
+    "region": "APAC",
+    "country": "Philippines",
+    "subdivision": "Natl Capital Region",
+    "city": "Taguig",
+    "name": "Mckinley Town Center"
+  },
+  {
+    "code": "MTH",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Mather",
+    "name": "Mather Airport, Folsom"
+  },
+  {
+    "code": "MTM",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Nagano",
+    "city": "Marsumoto City",
+    "name": "Matsumoto, Nagano"
+  },
+  {
+    "code": "MTP",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Newfoundland and Labrador",
+    "city": "Mount Pearl",
+    "name": "Mount Pearl"
+  },
+  {
+    "code": "MV",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Mountain View",
+    "name": "Mountain View, Santa Clara"
+  },
+  {
+    "code": "MVC",
+    "region": "APAC",
+    "country": "Malaysia",
+    "subdivision": "Kuala Lumpur",
+    "city": "Lingkaran Syed Putra",
+    "name": "Mid Valley City FSO"
+  },
+  {
+    "code": "MVT",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Baden Wurttemberg",
+    "city": "Sankt Leon-Rot",
+    "name": "Mavinci Tower"
+  },
+  {
+    "code": "MW",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Texas",
+    "city": "Addison",
+    "name": "Midway, Addison"
+  },
+  {
+    "code": "NA",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hamerkaz",
+    "city": "Natayna",
+    "name": "Natanya"
+  },
+  {
+    "code": "NAL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Ohio",
+    "city": "New Albany",
+    "name": "Stack Infrastructure Ohio Colo"
+  },
+  {
+    "code": "NB",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Boston",
+    "name": "Newbury, Boston"
+  },
+  {
+    "code": "NBC",
+    "region": "EMEA",
+    "country": "Romania",
+    "subdivision": "Timis",
+    "city": "Timisoara",
+    "name": "United Business Center"
+  },
+  {
+    "code": "NC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "Colorado Springs",
+    "name": "North Creek, Colorado Springs"
+  },
+  {
+    "code": "NCC",
+    "region": "APAC",
+    "country": "Philippines",
+    "subdivision": "Metro Manila",
+    "city": "Taguig City",
+    "name": "Net Cube Centre, Taguig City"
+  },
+  {
+    "code": "NCR",
+    "region": "EMEA",
+    "country": "Egypt",
+    "subdivision": "Al Qahirah",
+    "city": "Cairo",
+    "name": "New Cairo Centre, Cairo"
+  },
+  {
+    "code": "NF",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New York",
+    "city": "Getzville",
+    "name": "Getzville, Buffalo"
+  },
+  {
+    "code": "NGB",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Aichi",
+    "city": "Nagoya",
+    "name": "Nagoya Building, Nagoya"
+  },
+  {
+    "code": "NGS",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Taipei",
+    "city": "Taipei City",
+    "name": "Nangang Station, Taipei"
+  },
+  {
+    "code": "NH",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Portland",
+    "name": "Nobb Hill, Hillsboro"
+  },
+  {
+    "code": "NHU",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Taipei",
+    "city": "Taipei",
+    "name": "Nei Hu, Taipei"
+  },
+  {
+    "code": "NIM",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Liaoning Sheng",
+    "city": "Shenyang",
+    "name": "North Int Media, Shenyang"
+  },
+  {
+    "code": "NJ",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New Jersey",
+    "city": "Plainsboro",
+    "name": "Plainsboro, New Jersey"
+  },
+  {
+    "code": "NKG",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Taipei",
+    "city": "Taipei",
+    "name": "Nang Kang Taipei"
+  },
+  {
+    "code": "NKS",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Taipei",
+    "city": "Taipei City",
+    "name": "Nangkang Station, Taipei"
+  },
+  {
+    "code": "NL",
+    "region": "EMEA",
+    "country": "Netherlands",
+    "subdivision": "Utrecht",
+    "city": "Nieuwegein",
+    "name": "Nieuwegein, Utrecht"
+  },
+  {
+    "code": "NLD",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Texas",
+    "city": "Austin",
+    "name": "Northland, Austin"
+  },
+  {
+    "code": "NOR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Georgia",
+    "city": "Alpharetta",
+    "name": "Northpoint Parkway"
+  },
+  {
+    "code": "NPB",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Newport Beach",
+    "name": "Newport Beach"
+  },
+  {
+    "code": "NRS",
+    "region": "EMEA",
+    "country": "Morocco",
+    "subdivision": "Casablanca (Dar el Beida)",
+    "city": "Casablanca",
+    "name": "Nearshore, Casablanca"
+  },
+  {
+    "code": "NRT",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Narita",
+    "name": "Narita, Tokyo"
+  },
+  {
+    "code": "NTT",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Chiyoda-ku",
+    "name": "NTT Hitotsubashi, Tokyo"
+  },
+  {
+    "code": "NW",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Northwest, Santa Clara"
+  },
+  {
+    "code": "NY",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New York",
+    "city": "New York",
+    "name": "Park Avenue, New York"
+  },
+  {
+    "code": "NYE",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Nevada",
+    "city": "Carson City",
+    "name": "Nye Lane"
+  },
+  {
+    "code": "OAK",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "Fort Collins",
+    "name": "Oak Ridge, Fort Collins"
+  },
+  {
+    "code": "OBH",
+    "region": "EMEA",
+    "country": "Ireland",
+    "subdivision": "Dublin",
+    "city": "Dublin",
+    "name": "O'Connell Bridge House"
+  },
+  {
+    "code": "OBL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Francisco",
+    "name": "Oceanic, San Francisco"
+  },
+  {
+    "code": "OBT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Illinois",
+    "city": "Oakbrook Terrace",
+    "name": "Oakbrook Terrace, Chicago"
+  },
+  {
+    "code": "OC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Arizona",
+    "city": "Chandler",
+    "name": "Ocotillo"
+  },
+  {
+    "code": "OGW",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Chiyoda-ku",
+    "name": "Ogawa, Tokyo"
+  },
+  {
+    "code": "OHO",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Ohio",
+    "city": "New Albany",
+    "name": "Ohio One"
+  },
+  {
+    "code": "OHT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Ohio",
+    "city": "New Albany",
+    "name": "Ohio Trailer City"
+  },
+  {
+    "code": "OIP",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "HaDarom",
+    "city": "Omer",
+    "name": "Omer Park, Israel"
+  },
+  {
+    "code": "OLM",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Washington",
+    "city": "Olympia",
+    "name": "Olympia Airport, DuPont"
+  },
+  {
+    "code": "OMS",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Munich",
+    "name": "Ohmstrasse"
+  },
+  {
+    "code": "ON",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Orenco, Hillsboro"
+  },
+  {
+    "code": "ONL",
+    "region": "AMER",
+    "country": "Chile",
+    "subdivision": "Santiago",
+    "city": "Santiago",
+    "name": "Costanera Nueva Lyon "
+  },
+  {
+    "code": "OP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Santa Barbara",
+    "name": "Overpass, Santa Barbara"
+  },
+  {
+    "code": "OR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Portland",
+    "name": "Riverside, Hillsboro"
+  },
+  {
+    "code": "OSK",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Osaka",
+    "city": "Toyonaka-Shi",
+    "name": "Kintetsu Dojima Building"
+  },
+  {
+    "code": "OTM",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Chiyoda-ku",
+    "name": "Otemachi, Tokyo"
+  },
+  {
+    "code": "PA",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Ile-de-France",
+    "city": "Boulogne-Billancourt",
+    "name": "Paris"
+  },
+  {
+    "code": "PAS",
+    "region": "AMER",
+    "country": "Mexico",
+    "subdivision": "Ciudad de Mexico",
+    "city": "Mexico City",
+    "name": "Paseo de la Reforma Ave"
+  },
+  {
+    "code": "PBC",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Delhi",
+    "city": "New Delhi",
+    "name": "Paharpur, New Delhi"
+  },
+  {
+    "code": "PC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Fremont",
+    "name": "Pacific Commons, Fremont"
+  },
+  {
+    "code": "PCB",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Occitanie",
+    "city": "Montpellier",
+    "name": "Parc Club, Montpellier"
+  },
+  {
+    "code": "PCH",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Georgia",
+    "city": "Atlanta",
+    "name": "Peachtree, Atlanta"
+  },
+  {
+    "code": "PCK",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Occitanie",
+    "city": "Montpellier",
+    "name": "Parc Eureka, Montpellier"
+  },
+  {
+    "code": "PCP",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Chaoyang District",
+    "name": "Pacific Century, Beijing"
+  },
+  {
+    "code": "PCT",
+    "region": "EMEA",
+    "country": "Spain",
+    "subdivision": "Madrid",
+    "city": "Madrid",
+    "name": "Torre Picasso, Madrid"
+  },
+  {
+    "code": "PD",
+    "region": null,
+    "country": null,
+    "subdivision": "Shanghai Shi",
+    "city": "Pudong",
+    "name": "Pudong, Shanghai"
+  },
+  {
+    "code": "PDX",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Portland",
+    "name": "Portland International Temp Shuttle"
+  },
+  {
+    "code": "PFL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Kansas",
+    "city": "Lenexa",
+    "name": "Pflumm, Lenexa"
+  },
+  {
+    "code": "PFM",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Folsom",
+    "name": "Pandesic, Folsom"
+  },
+  {
+    "code": "PFZ",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Baden Wurttemberg",
+    "city": "Karlsruhe",
+    "name": "Pfizerstrasse 1"
+  },
+  {
+    "code": "PG",
+    "region": "APAC",
+    "country": "Malaysia",
+    "subdivision": "Pulau Pinang",
+    "city": "Bayan Lepas",
+    "name": "Bayan Lepas, Penang"
+  },
+  {
+    "code": "PIN",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Pisa",
+    "city": "Pisa",
+    "name": "Pisa Italy NestHub"
+  },
+  {
+    "code": "PLM",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Carlsbad",
+    "name": "Palomar, Carlsbad"
+  },
+  {
+    "code": "PM",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Jose",
+    "name": "Parkmoor, Santa Clara"
+  },
+  {
+    "code": "PNA",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Moskva",
+    "city": "Moscow",
+    "name": "Presnenskaya Naberezhnay"
+  },
+  {
+    "code": "PR",
+    "region": "AMER",
+    "country": "Puerto Rico",
+    "subdivision": "Puerto Rico",
+    "city": "Las Piedras",
+    "name": "Puerto Rico"
+  },
+  {
+    "code": "PRA",
+    "region": "APAC",
+    "country": "Malaysia",
+    "subdivision": "Pulau Pinang",
+    "city": "Prai",
+    "name": "Prai, Penang"
+  },
+  {
+    "code": "PRL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "BOULDER",
+    "name": "Pearl, Boulder"
+  },
+  {
+    "code": "PRS",
+    "region": "EMEA",
+    "country": "Kenya",
+    "subdivision": "Nairobi",
+    "city": "Nairobi",
+    "name": "Purshottan, Nairobi"
+  },
+  {
+    "code": "PRV",
+    "region": "AMER",
+    "country": "Chile",
+    "subdivision": "Santiago",
+    "city": "Santiago",
+    "name": "Providencia"
+  },
+  {
+    "code": "PSB",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Prestige Solitare, Bangalore "
+  },
+  {
+    "code": "PSD",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Francisco",
+    "name": "Presidio, San Francisco"
+  },
+  {
+    "code": "PSV",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Sunnyvale",
+    "name": "Pandesic, Sunnyvale"
+  },
+  {
+    "code": "PT",
+    "region": "EMEA",
+    "country": "Greece",
+    "subdivision": "Dytiki Ellada",
+    "city": "Patras",
+    "name": "Patras, Greece"
+  },
+  {
+    "code": "PTK",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hamerkaz",
+    "city": "Petah Tikva",
+    "name": "Kiryat Aryeh"
+  },
+  {
+    "code": "PTL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Texas",
+    "city": "Austin",
+    "name": "Plaza Lakes, Austin"
+  },
+  {
+    "code": "PV",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Roma",
+    "city": "Rome",
+    "name": "Palazzo Valadier, Rome"
+  },
+  {
+    "code": "PVD",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Idaho",
+    "city": "Idaho Falls",
+    "name": "Pier View Drive, Idaho Falls"
+  },
+  {
+    "code": "PW",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Lincoln",
+    "name": "Pioneer Way, Lincoln"
+  },
+  {
+    "code": "PY",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New Jersey",
+    "city": "Parsippany",
+    "name": "Parsippany"
+  },
+  {
+    "code": "PYB",
+    "region": "APAC",
+    "country": "Australia",
+    "subdivision": "New South Wales",
+    "city": "Pyrmont",
+    "name": "Pyrmont"
+  },
+  {
+    "code": "QCW",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Arizona",
+    "city": "Chandler",
+    "name": "Queen Creek Rd Warehouse"
+  },
+  {
+    "code": "QDF",
+    "region": "EMEA",
+    "country": "Portugal",
+    "subdivision": "Lisboa",
+    "city": "Paco D'Arcos",
+    "name": "Quinta Da Fonte, Lisbon"
+  },
+  {
+    "code": "RA",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Gordon Moore Park at RA"
+  },
+  {
+    "code": "RAF",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Shanghai Shi",
+    "city": "Huangpu District",
+    "name": "Raffles Office Building"
+  },
+  {
+    "code": "RC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Ronler Corporate Center"
+  },
+  {
+    "code": "RDL",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Auvergne-Rhone-Alpes",
+    "city": "Moirans",
+    "name": "Rocher de Lorzier"
+  },
+  {
+    "code": "RDN",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Ile-de-France",
+    "city": "Paris",
+    "name": "Rue Danton"
+  },
+  {
+    "code": "RDV",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Nizhegorod",
+    "city": "Nizhny Novgorod",
+    "name": "Rodionova, Nizhny"
+  },
+  {
+    "code": "RET",
+    "region": "APAC",
+    "country": "Pakistan",
+    "subdivision": "Islamabad",
+    "city": "Islamabad",
+    "name": "Emirate Tower, Islamabad"
+  },
+  {
+    "code": "RLT",
+    "region": "APAC",
+    "country": "Australia",
+    "subdivision": "Victoria",
+    "city": "Melbourne",
+    "name": "Rialto South Tower, Melbourne"
+  },
+  {
+    "code": "RMH",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Tel-Aviv",
+    "city": "Tel Aviv",
+    "name": "Ramat HaHayal"
+  },
+  {
+    "code": "RMP",
+    "region": "APAC",
+    "country": "Malaysia",
+    "subdivision": "Kuala Lumpur",
+    "city": "Kuala Lumpur",
+    "name": "Regus Menara Prestige"
+  },
+  {
+    "code": "RMZ",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "RMZ, Bangalore "
+  },
+  {
+    "code": "RNG",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Pennsylvania",
+    "city": "Lancaster",
+    "name": "Orange, Lancaster"
+  },
+  {
+    "code": "RNO",
+    "region": "AMER",
+    "country": "Peru",
+    "subdivision": "Lima",
+    "city": "Lima",
+    "name": "Real Uno"
+  },
+  {
+    "code": "RNS",
+    "region": "EMEA",
+    "country": "Latvia",
+    "subdivision": "Riga",
+    "city": "Riga",
+    "name": "Raunas"
+  },
+  {
+    "code": "ROF",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Roma",
+    "city": "Rome",
+    "name": "Rome Officine Farneto"
+  },
+  {
+    "code": "ROP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Jose",
+    "name": "River Oaks, San Jose"
+  },
+  {
+    "code": "ROS",
+    "region": "EMEA",
+    "country": "Romania",
+    "subdivision": "Bucuresti",
+    "city": "Bucharest",
+    "name": "Rosetti, Bucharest"
+  },
+  {
+    "code": "RPO",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Hubei Sheng",
+    "city": "Wuhan",
+    "name": "Ramada Plaza, Wuhan"
+  },
+  {
+    "code": "RPT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Washington",
+    "city": "Bellevue",
+    "name": "RidgePointe Washington"
+  },
+  {
+    "code": "RR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New Mexico",
+    "city": "Rio Rancho",
+    "name": "Rio Rancho"
+  },
+  {
+    "code": "RSD",
+    "region": "APAC",
+    "country": "Australia",
+    "subdivision": "Queensland",
+    "city": "Brisbane",
+    "name": "Riverside, Brisbane"
+  },
+  {
+    "code": "RSE",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Provence-Alpes-Cote-",
+    "city": "Valbonne",
+    "name": "Rue Soutrane"
+  },
+  {
+    "code": "RSH",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Tokyo",
+    "name": "Regus Signature Hibiya"
+  },
+  {
+    "code": "RTC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Portland",
+    "name": "Rivertec, Hillsboro"
+  },
+  {
+    "code": "RTP",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "Scotland",
+    "city": "Livingston",
+    "name": "Rosebank Technology Park"
+  },
+  {
+    "code": "RV",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Utah",
+    "city": "Riverton",
+    "name": "Riverton"
+  },
+  {
+    "code": "RVP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Texas",
+    "city": "Austin",
+    "name": "River Place, Austin"
+  },
+  {
+    "code": "RVR",
+    "region": "EMEA",
+    "country": "Kenya",
+    "subdivision": "Nairobi City",
+    "city": "Nairobi",
+    "name": "Riverside, Nairobi"
+  },
+  {
+    "code": "RYC",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Beijing",
+    "name": "Raycom, Beijing"
+  },
+  {
+    "code": "RYD",
+    "region": "EMEA",
+    "country": "Saudi Arabia",
+    "subdivision": "Ar Riyad",
+    "city": "Riyadh",
+    "name": "Riyadh"
+  },
+  {
+    "code": "RYL",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Toronto",
+    "name": "Royal, Toronto"
+  },
+  {
+    "code": "RZL",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Beijing",
+    "name": "Ronghua Zhong Lu, Beijing"
+  },
+  {
+    "code": "SAF",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Provence-Alpes-Cote-",
+    "city": "Valbonne",
+    "name": "Les Aqueducs"
+  },
+  {
+    "code": "SAM",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Busan",
+    "city": "Busan",
+    "name": "Samhan, Busan"
+  },
+  {
+    "code": "SAU",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SAUSALITO",
+    "name": "Sausalito, San Francisco"
+  },
+  {
+    "code": "SAY",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "British Columbia",
+    "city": "Victoria",
+    "name": "Sayward, Victoria"
+  },
+  {
+    "code": "SBD",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Scott Boulevard"
+  },
+  {
+    "code": "SBK",
+    "region": "EMEA",
+    "country": "Ukraine",
+    "subdivision": "Kyivs'ka Oblast",
+    "city": "Kiev",
+    "name": "Silver Breeze Kiev"
+  },
+  {
+    "code": "SBS",
+    "region": "EMEA",
+    "country": "Turkiye",
+    "subdivision": "Istanbul",
+    "city": "Istanbul",
+    "name": "Istanbul Besiktas Selenium"
+  },
+  {
+    "code": "SC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Santa Clara, CA"
+  },
+  {
+    "code": "SCH",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Scotch Church, Hillsboro"
+  },
+  {
+    "code": "SCL",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "London",
+    "name": "St. Clare House, London"
+  },
+  {
+    "code": "SCN",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Aylesbury",
+    "name": "Target House"
+  },
+  {
+    "code": "SCR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Cupertino",
+    "name": "Steven's Creek, Santa Clara"
+  },
+  {
+    "code": "SCS",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Diego",
+    "name": "Scripps, San Diego"
+  },
+  {
+    "code": "SCT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Scott, Santa Clara"
+  },
+  {
+    "code": "SDC",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Delhi",
+    "city": "New Delhi",
+    "name": "Saket District Center"
+  },
+  {
+    "code": "SDW",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Nurnberg",
+    "name": "Sudwestpark, Nuremberg"
+  },
+  {
+    "code": "SEA",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Washington",
+    "city": "Seattle",
+    "name": "US Bank Centre, Seattle"
+  },
+  {
+    "code": "SEC",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Andhra Pradesh",
+    "city": "Secunderabad",
+    "name": "Secunderabad, Andhra Pradesh"
+  },
+  {
+    "code": "SFD",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Hamburg",
+    "city": "Hamburg",
+    "name": "Sachsenfeld"
+  },
+  {
+    "code": "SFO",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Francisco",
+    "name": "Montgomery, San Francisco"
+  },
+  {
+    "code": "SFS",
+    "region": "EMEA",
+    "country": "Switzerland",
+    "subdivision": "Zurich",
+    "city": "Zurich",
+    "name": "Seefeldstrasse"
+  },
+  {
+    "code": "SG",
+    "region": "APAC",
+    "country": "Singapore",
+    "subdivision": "Singapore",
+    "city": "Singapore",
+    "name": "Starhub Centre, Singapore"
+  },
+  {
+    "code": "SGK",
+    "region": "APAC",
+    "country": "Malaysia",
+    "subdivision": "Sarawak",
+    "city": "Kuching",
+    "name": "Somerset Gateway, Kuching"
+  },
+  {
+    "code": "SGL",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Sichuan Sheng",
+    "city": "Chengdu",
+    "name": "Shangri-La Hotel, Chengdu"
+  },
+  {
+    "code": "SGR",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Gujarat",
+    "city": "Ahmedabad",
+    "name": "Shangrila Arcade, Ahmedabad"
+  },
+  {
+    "code": "SH",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Shanghai Shi",
+    "city": "Shanghai",
+    "name": "Shanghai Mart"
+  },
+  {
+    "code": "SHK",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Berkeley",
+    "name": "Shattuck, Berkeley"
+  },
+  {
+    "code": "SHR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Shrewsbury",
+    "name": "Shrewsbury"
+  },
+  {
+    "code": "SHT",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Shanghai Shi",
+    "city": "Shanghai",
+    "name": "Shanghai Hub Tower"
+  },
+  {
+    "code": "SHZ",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Shanghai Shi",
+    "city": "Minhang",
+    "name": "Zizhu, Shanghai"
+  },
+  {
+    "code": "SIC",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Moskva",
+    "city": "Moscow",
+    "name": "Skolkovo Innovation Center"
+  },
+  {
+    "code": "SIE",
+    "region": "EMEA",
+    "country": "Ireland",
+    "subdivision": "Clare",
+    "city": "Shannon",
+    "name": "Dromore, Shannon"
+  },
+  {
+    "code": "SIL",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Sarakki, Bangalore "
+  },
+  {
+    "code": "SJ",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Jose",
+    "name": "John, San Jose"
+  },
+  {
+    "code": "SJC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Jose",
+    "name": "San Jose Airport"
+  },
+  {
+    "code": "SJI",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Jose",
+    "name": "San Jose Innovation"
+  },
+  {
+    "code": "SJT",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Seoul Teugbyeolsi",
+    "city": "Geumcheon-gu",
+    "name": "SJ Technoville, Seoul"
+  },
+  {
+    "code": "SK",
+    "region": "EMEA",
+    "country": "Sweden",
+    "subdivision": "Stockholm",
+    "city": "Kista",
+    "name": "Kista, Stockholm"
+  },
+  {
+    "code": "SKA",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Seoul Teugbyeolsi",
+    "city": "Kangnam-Ku",
+    "name": "Kyoung Am, Seoul"
+  },
+  {
+    "code": "SKC",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Telangana",
+    "city": "Hyderabad",
+    "name": "Salarpuria Sattva Knowledge City"
+  },
+  {
+    "code": "SKF",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hamerkaz",
+    "city": "Kfar Saba",
+    "name": "Sharona Kfar Saba"
+  },
+  {
+    "code": "SKT",
+    "region": null,
+    "country": null,
+    "subdivision": "Beijing Shi",
+    "city": "Chaoyang District",
+    "name": "see SKW - SK Tower (McAfee)"
+  },
+  {
+    "code": "SKV",
+    "region": "EMEA",
+    "country": "Denmark",
+    "subdivision": "Region Hovedstaden",
+    "city": "Skovlunde",
+    "name": "Skovlunde, Copenhagen"
+  },
+  {
+    "code": "SKW",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Chaoyang District",
+    "name": "SK Tower (McAfee)"
+  },
+  {
+    "code": "SKY",
+    "region": "APAC",
+    "country": "Mongolia",
+    "subdivision": "Ulaanbaatar",
+    "city": "Ulaanbaatar",
+    "name": "Sky, Ulaanbaatar"
+  },
+  {
+    "code": "SL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Utah",
+    "city": "Salt Lake",
+    "name": "Sorenson, Salt Lake"
+  },
+  {
+    "code": "SLG",
+    "region": "EMEA",
+    "country": "Nigeria",
+    "subdivision": "Lagos",
+    "city": "Lagos",
+    "name": "Regus Lagos"
+  },
+  {
+    "code": "SLN",
+    "region": "EMEA",
+    "country": "Sweden",
+    "subdivision": "Stockholm",
+    "city": "Solna",
+    "name": "Solna, Stockholm"
+  },
+  {
+    "code": "SLS",
+    "region": "EMEA",
+    "country": "South Africa",
+    "subdivision": "Gauteng",
+    "city": "Johannesburg",
+    "name": "Sloane Street"
+  },
+  {
+    "code": "SLT",
+    "region": "EMEA",
+    "country": "South Africa",
+    "subdivision": "Gauteng",
+    "city": "Johannesburg",
+    "name": "Sloane Street INACTIVE"
+  },
+  {
+    "code": "SMB",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Pasadena",
+    "name": "Sierra Madre Boulevard "
+  },
+  {
+    "code": "SMD",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "South Carolina",
+    "city": "Columbia",
+    "name": "Samuel Morse Dr"
+  },
+  {
+    "code": "SMK",
+    "region": "EMEA",
+    "country": "Finland",
+    "subdivision": "UUSIMAA",
+    "city": "Espoo",
+    "name": "Sinimaki, Espoo"
+  },
+  {
+    "code": "SML",
+    "region": "APAC",
+    "country": "Kazakhstan",
+    "subdivision": "Almaty",
+    "city": "Almaty",
+    "name": "Samal, Almaty"
+  },
+  {
+    "code": "SMN",
+    "region": "EMEA",
+    "country": "Austria",
+    "subdivision": "Karnten",
+    "city": "Villach",
+    "name": "Siemensstrasse"
+  },
+  {
+    "code": "SMR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Ohio",
+    "city": "New Albany",
+    "name": "Smith Mill Road"
+  },
+  {
+    "code": "SMT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Francisco",
+    "name": "South of Market"
+  },
+  {
+    "code": "SN",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Diego",
+    "name": "Science, San Diego"
+  },
+  {
+    "code": "SNL",
+    "region": "EMEA",
+    "country": "Finland",
+    "subdivision": "UUSIMAA",
+    "city": "Espoo",
+    "name": "Sinihelmi, Espoo"
+  },
+  {
+    "code": "SOL",
+    "region": "AMER",
+    "country": "Argentina",
+    "subdivision": "Buenos Aires",
+    "city": "Buenos Aires",
+    "name": "Solis"
+  },
+  {
+    "code": "SP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Diego",
+    "name": "Scripps Ranch, San Diego"
+  },
+  {
+    "code": "SPB",
+    "region": "AMER",
+    "country": "Brazil",
+    "subdivision": "Sao Paulo",
+    "city": "Sao Paulo",
+    "name": "Sao Paulo Brazil Reg Office"
+  },
+  {
+    "code": "SPC",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Salarpuria, Bangalore "
+  },
+  {
+    "code": "SPK",
+    "region": "APAC",
+    "country": "Pakistan",
+    "subdivision": "Islamabad",
+    "city": "Islamabad",
+    "name": "Saudi Pak, Islamabad"
+  },
+  {
+    "code": "SPT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New Hampshire",
+    "city": "Nashua",
+    "name": "Spit Brook, Nashua"
+  },
+  {
+    "code": "SR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Santa Cruz",
+    "name": "Encinal, Santa Cruz"
+  },
+  {
+    "code": "SRC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Los Altos",
+    "name": "Sears Capital Management"
+  },
+  {
+    "code": "SRR",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Sarjapur, Bangalore"
+  },
+  {
+    "code": "SRV",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Nizhegorod",
+    "city": "Diveevo District",
+    "name": "Technopark, Sarov"
+  },
+  {
+    "code": "SS",
+    "region": "APAC",
+    "country": "Vietnam",
+    "subdivision": "Ho Chi Minh (SaiGon)",
+    "city": "Ho Chi Minh City",
+    "name": "Saigon HTP, Ho Chi Minh"
+  },
+  {
+    "code": "SSB",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bengaluru",
+    "name": "Salarpuria Supreme, Bangalore "
+  },
+  {
+    "code": "ST",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "San Tomas"
+  },
+  {
+    "code": "STA",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Saratoga, Santa Clara"
+  },
+  {
+    "code": "STC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Texas",
+    "city": "Austin",
+    "name": "Seton Center, Austin"
+  },
+  {
+    "code": "STG",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Baden Wurttemberg",
+    "city": "Stuttgart",
+    "name": "Stuttgart, Braunschweig"
+  },
+  {
+    "code": "STJ",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "London",
+    "name": "St. James, London"
+  },
+  {
+    "code": "STL",
+    "region": "AMER",
+    "country": "Chile",
+    "subdivision": "Region Metropolitana De Santiago",
+    "city": "Santiago",
+    "name": "Las Condes, Santiago"
+  },
+  {
+    "code": "STR",
+    "region": "APAC",
+    "country": "Vietnam",
+    "subdivision": "Thanh Pho Ho Chi Minh",
+    "city": "Ho Chi Minh City",
+    "name": "Saigon Trade Ctr, Ho Chi Minh"
+  },
+  {
+    "code": "STS",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Unterschleissheim",
+    "name": "Freisinger Strasse"
+  },
+  {
+    "code": "SU",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "BEAVERTON",
+    "name": "Sunshine Court, Hillsboro"
+  },
+  {
+    "code": "SV",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Sunnyvale",
+    "name": "Sunnyvale"
+  },
+  {
+    "code": "SVC",
+    "region": "EMEA",
+    "country": "Egypt",
+    "subdivision": "Al Qahirah",
+    "city": "Cairo",
+    "name": "Smart Village, Cairo"
+  },
+  {
+    "code": "SVL",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Moskva",
+    "city": "Moscow",
+    "name": "Savelovsky, Moscow"
+  },
+  {
+    "code": "SW",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Luis Obispo",
+    "name": "Southwood, San Luis Obispo"
+  },
+  {
+    "code": "SWI",
+    "region": "EMEA",
+    "country": "Poland",
+    "subdivision": "Lodz",
+    "city": "Lodz",
+    "name": "Swietlana, Lodz"
+  },
+  {
+    "code": "SWO",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Washington",
+    "city": "Seattle",
+    "name": "Seattle Washington Office"
+  },
+  {
+    "code": "SWP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Texas",
+    "city": "Austin",
+    "name": "Southwest Parkway"
+  },
+  {
+    "code": "SYA",
+    "region": "APAC",
+    "country": "Australia",
+    "subdivision": "New South Wales",
+    "city": "Sydney",
+    "name": "Sydney Australia"
+  },
+  {
+    "code": "SYI",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Madhya Pradesh",
+    "city": "Indore",
+    "name": "Sayayi, Indore"
+  },
+  {
+    "code": "SZ",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Santa Cruz",
+    "name": "Delaware, Santa Cruz"
+  },
+  {
+    "code": "TA",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Tel Aviv",
+    "city": "Tel Aviv",
+    "name": "Tel Aviv"
+  },
+  {
+    "code": "TB",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Fremont",
+    "name": "Thornton, Fremont"
+  },
+  {
+    "code": "TBP",
+    "region": "AMER",
+    "country": "Colombia",
+    "subdivision": "Distrito Capital de Bogota",
+    "city": "Bogota",
+    "name": "Teleport, Bogota"
+  },
+  {
+    "code": "TCO",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Setagaya-Ku",
+    "name": "Carrot Tower, Tokyo"
+  },
+  {
+    "code": "TCP",
+    "region": "AMER",
+    "country": "Brazil",
+    "subdivision": "Sao Paulo",
+    "city": "Campinas",
+    "name": "Techno Plaza, Campinas"
+  },
+  {
+    "code": "TCZ",
+    "region": "EMEA",
+    "country": "Utd.Arab Emir.",
+    "subdivision": "Dubai",
+    "city": "Dubai",
+    "name": "TECOM Zone INACTIVE"
+  },
+  {
+    "code": "TDN",
+    "region": "EMEA",
+    "country": "Norway",
+    "subdivision": "Trondelag",
+    "city": "Trondheim",
+    "name": "Photonics, Trondheim"
+  },
+  {
+    "code": "TEC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "Fort Collins",
+    "name": "Tech Park, Fort Collins"
+  },
+  {
+    "code": "TEK",
+    "region": "EMEA",
+    "country": "Finland",
+    "subdivision": "UUSIMAA",
+    "city": "Espoo",
+    "name": "Tekniikanitie"
+  },
+  {
+    "code": "TEL",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Milano",
+    "city": "Milan",
+    "name": "Teltec Business Complex"
+  },
+  {
+    "code": "TEP",
+    "region": "EMEA",
+    "country": "Turkiye",
+    "subdivision": "Ankara",
+    "city": "Ankara",
+    "name": "TEPE Prime Business Center"
+  },
+  {
+    "code": "TF",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hazafon",
+    "city": "Migdal Tefan",
+    "name": "Tefen"
+  },
+  {
+    "code": "TFN",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Ile-de-France",
+    "city": "Paris",
+    "name": "Tour Franklin"
+  },
+  {
+    "code": "TGV",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Nizhegorod",
+    "city": "Nizhny Novgorod",
+    "name": "Turgeneva, Nizhny"
+  },
+  {
+    "code": "TH",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "Irvine",
+    "name": "Theory, Irvine"
+  },
+  {
+    "code": "THO",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "Tanasbourne Biz Park Daycare"
+  },
+  {
+    "code": "THS",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Niedersachsen",
+    "city": "Braunschweig",
+    "name": "Theodor-Heuss, Braunschweig"
+  },
+  {
+    "code": "TJH",
+    "region": "EMEA",
+    "country": "Norway",
+    "subdivision": "Oslo",
+    "city": "Oslo",
+    "name": "Tjuvholmen Alle"
+  },
+  {
+    "code": "TK",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Chiyoda-ku",
+    "name": "Tokyo, Japan"
+  },
+  {
+    "code": "TKS",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Shinjuku-ku",
+    "name": "Shinjuku-ku, Tokyo"
+  },
+  {
+    "code": "TLC",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Taipei (City)",
+    "city": "Taipei",
+    "name": "Taipei Landmark Centre FSO"
+  },
+  {
+    "code": "TLG",
+    "region": "APAC",
+    "country": "Hong Kong",
+    "subdivision": "Hong Kong",
+    "city": "Hong Kong",
+    "name": "Windsor House"
+  },
+  {
+    "code": "TLP",
+    "region": "AMER",
+    "country": "Mexico",
+    "subdivision": "Jalisco",
+    "city": "Guadalajara",
+    "name": "Tlaquepaque, Guadalajara"
+  },
+  {
+    "code": "TLV",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Tel Aviv",
+    "city": "Tel Aviv",
+    "name": "Habana ISR Tel Aviv"
+  },
+  {
+    "code": "TM",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Arizona",
+    "city": "Tempe",
+    "name": "Tempe, Phoenix"
+  },
+  {
+    "code": "TMZ",
+    "region": "EMEA",
+    "country": "Utd.Arab Emir.",
+    "subdivision": "Dubai",
+    "city": "Dubai",
+    "name": "TECOM Zone"
+  },
+  {
+    "code": "TNK",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Luis Obispo",
+    "name": "Tank Farm, San Luis Obispo"
+  },
+  {
+    "code": "TO",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "BEAVERTON",
+    "name": "Twin Oaks, Hillsboro"
+  },
+  {
+    "code": "TOP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Georgia",
+    "city": "Atlanta",
+    "name": "Tower Place 200"
+  },
+  {
+    "code": "TOR",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Ontario",
+    "name": "27 Allstate Markham"
+  },
+  {
+    "code": "TP",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Baden Wurttemberg",
+    "city": "Neckarsulm",
+    "name": "Trend Park, Neckarsulm"
+  },
+  {
+    "code": "TPC",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Ile-de-France",
+    "city": "Puteaux",
+    "name": "Tour Pacific"
+  },
+  {
+    "code": "TPK",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Baden Wurttemberg",
+    "city": "Karlsruhe",
+    "name": "Tech Park, Karlsruhe"
+  },
+  {
+    "code": "TPL",
+    "region": null,
+    "country": null,
+    "subdivision": "Guangdong Sheng",
+    "city": "Shenzhen",
+    "name": "Times Plaza"
+  },
+  {
+    "code": "TPZ",
+    "region": null,
+    "country": null,
+    "subdivision": "Sichuan Sheng",
+    "city": "Chengdu",
+    "name": "Tower Plaza"
+  },
+  {
+    "code": "TR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Diego",
+    "name": "Torrey Reserve, San Diego"
+  },
+  {
+    "code": "TRY",
+    "region": "EMEA",
+    "country": "Poland",
+    "subdivision": "Pomerania",
+    "city": "Gdansk",
+    "name": "Tryton Gdansk"
+  },
+  {
+    "code": "TS",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "New Hampshire",
+    "city": "Nashua",
+    "name": "Trafalgar Square, Nashua"
+  },
+  {
+    "code": "TSF",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Minato-ku",
+    "name": "Steps Fukide, Tokyo"
+  },
+  {
+    "code": "TSK",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Shinagawa-ku",
+    "name": "Shinagawa-ku, Tokyo"
+  },
+  {
+    "code": "TSN",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Gyeongsangbugdo",
+    "city": "Gumi",
+    "name": "Taesung, Gumi"
+  },
+  {
+    "code": "TTH",
+    "region": "APAC",
+    "country": "Japan",
+    "subdivision": "Tokyo",
+    "city": "Shibuya-ku",
+    "name": "Tohtam, Tokyo"
+  },
+  {
+    "code": "TV",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Thames Valley Park",
+    "name": "Thames Valley, Reading"
+  },
+  {
+    "code": "TVL",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Markham",
+    "name": "TVL"
+  },
+  {
+    "code": "TVY",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hazafon",
+    "city": "Yokneam",
+    "name": "Tavor, Yokneam"
+  },
+  {
+    "code": "TW",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Taipei",
+    "city": "Taipei",
+    "name": "Bank Tower, Taipei"
+  },
+  {
+    "code": "TWC",
+    "region": "EMEA",
+    "country": "Morocco",
+    "subdivision": "Draa-Tafilalet",
+    "city": "Casablanca",
+    "name": "Twin Center, Casablanca"
+  },
+  {
+    "code": "TYN",
+    "region": "APAC",
+    "country": "Taiwan",
+    "subdivision": "Hsinchu (City)",
+    "city": "Jhu Bei City",
+    "name": "Taiyuan, Jhu bei City"
+  },
+  {
+    "code": "TZD",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Sachsen",
+    "city": "Dresden",
+    "name": "Tech Zentrum, Dresden"
+  },
+  {
+    "code": "UBC",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Bath",
+    "name": "Upper Borough Court, Bath"
+  },
+  {
+    "code": "UBP",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Beijing",
+    "name": "Universal Business Prk Beijing"
+  },
+  {
+    "code": "UFP",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Pisa",
+    "city": "Pisa",
+    "name": "Umberto Forti Pisa"
+  },
+  {
+    "code": "UL",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Baden Wurttemberg",
+    "city": "Ulm-Einsingen",
+    "name": "Laemmerweg, Ulm"
+  },
+  {
+    "code": "UNB",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Maryland (USA)",
+    "city": "Ellicott City",
+    "name": "University Blvd"
+  },
+  {
+    "code": "UNI",
+    "region": "EMEA",
+    "country": "Russian Fed",
+    "subdivision": "Nizhegorod",
+    "city": "Nizhny Novgorod",
+    "name": "University, Nizhny"
+  },
+  {
+    "code": "UNO",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Gujarat",
+    "city": "Ahmedabad",
+    "name": "Uno, Ahmedabad"
+  },
+  {
+    "code": "UPC",
+    "region": "EMEA",
+    "country": "Spain",
+    "subdivision": "Catalunya",
+    "city": "Barcelona",
+    "name": "UPC, Barcelona"
+  },
+  {
+    "code": "UST",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Washington",
+    "city": "Seattle",
+    "name": "Union Station, Seattle"
+  },
+  {
+    "code": "UT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Utah",
+    "city": "American Fork",
+    "name": "American Fork"
+  },
+  {
+    "code": "UVI",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "British Columbia",
+    "city": "Victoria",
+    "name": "UVIC, Victoria"
+  },
+  {
+    "code": "UW",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Washington",
+    "city": "Seattle",
+    "name": "University Washington, Seattle"
+  },
+  {
+    "code": "VB",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Virtual Business Americas"
+  },
+  {
+    "code": "VBA",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Karnataka",
+    "city": "Bangalore",
+    "name": "Virtual Business Asia"
+  },
+  {
+    "code": "VBE",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Swindon",
+    "name": "Virtual Business EMEA"
+  },
+  {
+    "code": "VBL",
+    "region": "AMER",
+    "country": "Costa Rica",
+    "subdivision": "Heredia",
+    "city": "Belen",
+    "name": "Virtual Business Latin America"
+  },
+  {
+    "code": "VBP",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Guangdong Sheng",
+    "city": "Shenzhen",
+    "name": "Vision Business Park Shenzhen"
+  },
+  {
+    "code": "VCD",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Diego",
+    "name": "Valley Centre Drive"
+  },
+  {
+    "code": "VCT",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "BOULDER",
+    "name": "Vectra, Boulder"
+  },
+  {
+    "code": "VD",
+    "region": "EMEA",
+    "country": "Belgium",
+    "subdivision": "Antwerpen",
+    "city": "Kontich",
+    "name": "Veldkant, Kontich"
+  },
+  {
+    "code": "VDI",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Milano",
+    "city": "Milano",
+    "name": "Milano Italy Reg Office"
+  },
+  {
+    "code": "VDS",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Roma",
+    "city": "Rome",
+    "name": "Via del Serafico"
+  },
+  {
+    "code": "VEN",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Seoul Teugbyeolsi",
+    "city": "Seoul",
+    "name": "Venture, Seoul"
+  },
+  {
+    "code": "VGN",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "Ontario",
+    "city": "Vaughan",
+    "name": "Vaughan, Toronto"
+  },
+  {
+    "code": "VH",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Virtual Home Domestic"
+  },
+  {
+    "code": "VHA",
+    "region": null,
+    "country": null,
+    "subdivision": "Shanghai Shi",
+    "city": "Shanghai",
+    "name": "Virtual Home Asia"
+  },
+  {
+    "code": "VHE",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Berlin",
+    "city": "Berlin",
+    "name": "Virtual Home EMEA"
+  },
+  {
+    "code": "VHL",
+    "region": "AMER",
+    "country": "Costa Rica",
+    "subdivision": "Heredia",
+    "city": "Belen",
+    "name": "Virtual Home Latin America"
+  },
+  {
+    "code": "VLB",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Pisa",
+    "city": "San Giuliano Terme",
+    "name": "Via Lenin Business Park"
+  },
+  {
+    "code": "VMS",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Nordrhein-Westfalen",
+    "city": "Paderborn",
+    "name": "Vattmannstrasse"
+  },
+  {
+    "code": "VNC",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "British Columbia",
+    "city": "Vancouver",
+    "name": "Vancouver Reg office"
+  },
+  {
+    "code": "VPO",
+    "region": "EMEA",
+    "country": "Italy",
+    "subdivision": "Milano",
+    "city": "Milan",
+    "name": "Via Paracelso"
+  },
+  {
+    "code": "VRG",
+    "region": "AMER",
+    "country": "Argentina",
+    "subdivision": "Buenos Aires",
+    "city": "Buenos Aires",
+    "name": "Vergara, Buenos Aires"
+  },
+  {
+    "code": "VSP",
+    "region": null,
+    "country": null,
+    "subdivision": "Guangdong Sheng",
+    "city": "Shenzhen",
+    "name": "Vision Software Park Shenzhen"
+  },
+  {
+    "code": "VT",
+    "region": "APAC",
+    "country": "Vietnam",
+    "subdivision": "Ho Chi Minh (SaiGon)",
+    "city": "Ho Chi Minh City",
+    "name": "Vietnam"
+  },
+  {
+    "code": "VTT",
+    "region": "EMEA",
+    "country": "Austria",
+    "subdivision": "Kaernten",
+    "city": "Vienna",
+    "name": "Vienna Twin Towers"
+  },
+  {
+    "code": "VY",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Ile-de-France",
+    "city": "Velizy",
+    "name": "Velizy, Paris"
+  },
+  {
+    "code": "VYH",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Aylesbury",
+    "name": "Verney House"
+  },
+  {
+    "code": "VYT",
+    "region": "EMEA",
+    "country": "Lithuania",
+    "subdivision": "Vilniaus Apskritis",
+    "city": "Vilnius",
+    "name": "Vytenio, Vilnius"
+  },
+  {
+    "code": "WAN",
+    "region": null,
+    "country": null,
+    "subdivision": "Heilongjiang Sheng",
+    "city": "Harbin",
+    "name": "Wang Tong, Harbin"
+  },
+  {
+    "code": "WB",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Washington",
+    "city": "Seattle",
+    "name": "Westing, Seattle"
+  },
+  {
+    "code": "WBR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Idaho",
+    "city": "Idaho Falls",
+    "name": "West Broadway, Idaho Falls"
+  },
+  {
+    "code": "WDG",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Hartley Wintney",
+    "name": "Walled Garden, Hampshire"
+  },
+  {
+    "code": "WDN",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Sachsen",
+    "city": "Dresden",
+    "name": "Waldschlosschen, Dresden"
+  },
+  {
+    "code": "WDW",
+    "region": "EMEA",
+    "country": "Poland",
+    "subdivision": "Pomerania",
+    "city": "Krakow",
+    "name": "Wadowicka"
+  },
+  {
+    "code": "WES",
+    "region": "EMEA",
+    "country": "Finland",
+    "subdivision": "UUSIMAA",
+    "city": "Espoo",
+    "name": "Westend, Espoo"
+  },
+  {
+    "code": "WF",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Massachusetts",
+    "city": "Westford",
+    "name": "Westford"
+  },
+  {
+    "code": "WG",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Arizona",
+    "city": "Mesa",
+    "name": "Williams Gateway, Phoenix"
+  },
+  {
+    "code": "WH",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Basingstoke",
+    "name": "Worting, Basingstoke"
+  },
+  {
+    "code": "WI",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Hessen",
+    "city": "Weisbaden",
+    "name": "Wandersmann, Weisbaden"
+  },
+  {
+    "code": "WL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "SANTA CLARA",
+    "name": "Walsh, Santa Clara"
+  },
+  {
+    "code": "WMJ",
+    "region": "APAC",
+    "country": "Indonesia",
+    "subdivision": "Jakarta Raya",
+    "city": "Jakarta",
+    "name": "Wisma Metropolitan, Jakarta"
+  },
+  {
+    "code": "WNC",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Illinois",
+    "city": "Libertyville",
+    "name": "Winchester, Libertyville"
+  },
+  {
+    "code": "WNR",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Regensburg",
+    "name": "Werner, Regensburg"
+  },
+  {
+    "code": "WP",
+    "region": "AMER",
+    "country": "Canada",
+    "subdivision": "British Columbia",
+    "city": "Burnaby",
+    "name": "Willingdon Park, Burnaby"
+  },
+  {
+    "code": "WPN",
+    "region": "EMEA",
+    "country": "Germany",
+    "subdivision": "Bayern",
+    "city": "Munich",
+    "name": "Wappenhalle, Munich"
+  },
+  {
+    "code": "WRM",
+    "region": "APAC",
+    "country": "India",
+    "subdivision": "Telangana",
+    "city": "Hyderabad",
+    "name": "WeWork Raheja Mindspace"
+  },
+  {
+    "code": "WSP",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Washington",
+    "city": "Redmond",
+    "name": "Westpark"
+  },
+  {
+    "code": "WSQ",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "Westminster",
+    "name": "Westminster Square"
+  },
+  {
+    "code": "WST",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Colorado",
+    "city": "Westminster",
+    "name": "Westmoor, Westminster"
+  },
+  {
+    "code": "WT",
+    "region": "EMEA",
+    "country": "United Kingdom",
+    "subdivision": "England",
+    "city": "Winnersh Triangle",
+    "name": "Winnersh Triangle"
+  },
+  {
+    "code": "WTCB",
+    "region": "EMEA",
+    "country": "Romania",
+    "subdivision": "Bucuresti",
+    "city": "Bucharest",
+    "name": "WTC, Bucharest"
+  },
+  {
+    "code": "WTCC",
+    "region": "APAC",
+    "country": "Sri Lanka",
+    "subdivision": "Colombo",
+    "city": "Colombo",
+    "name": "WTCC, Colombo"
+  },
+  {
+    "code": "WTCZ",
+    "region": "EMEA",
+    "country": "Switzerland",
+    "subdivision": "Zurich",
+    "city": "Zurich",
+    "name": "WTC, Zurich"
+  },
+  {
+    "code": "WTR",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Texas",
+    "city": "Austin",
+    "name": "Waterford, Austin"
+  },
+  {
+    "code": "WTV",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Texas",
+    "city": "Richardson",
+    "name": "Waterview Pkwy"
+  },
+  {
+    "code": "WU",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "Oregon",
+    "city": "Hillsboro",
+    "name": "West Union, Hillsboro"
+  },
+  {
+    "code": "XCH",
+    "region": "EMEA",
+    "country": "Switzerland",
+    "subdivision": "Zurich",
+    "city": "Winkel-Rueti",
+    "name": "FSO, Zurich"
+  },
+  {
+    "code": "XDZ",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Shaanxi Sheng",
+    "city": "Xian",
+    "name": "Xian Development Zone"
+  },
+  {
+    "code": "XL",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Diego",
+    "name": "XLNT, San Diego"
+  },
+  {
+    "code": "XLY",
+    "region": "EMEA",
+    "country": "France",
+    "subdivision": "Auvergne-Rhone-Alpes",
+    "city": "Lyon",
+    "name": "Lyon FSO"
+  },
+  {
+    "code": "XNM",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Shanghai Shi",
+    "city": "Pudong",
+    "name": "Xin Mao, Pudong"
+  },
+  {
+    "code": "YDA",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Shanghai Shi",
+    "city": "Jing'an District",
+    "name": "Yue Da 889"
+  },
+  {
+    "code": "YKS",
+    "region": "APAC",
+    "country": "South Korea",
+    "subdivision": "Seoul Teugbyeolsi",
+    "city": "Kangnam-Ku",
+    "name": "Yoksam, Seoul"
+  },
+  {
+    "code": "YNL",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Sichuan Sheng",
+    "city": "Chengdu",
+    "name": "Yintai Centre, Chengdu"
+  },
+  {
+    "code": "YRH",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Hainan Sheng",
+    "city": "Sanya",
+    "name": "Yingbin Road Hainan"
+  },
+  {
+    "code": "ZAR",
+    "region": "EMEA",
+    "country": "Israel",
+    "subdivision": "Hamerkaz",
+    "city": "Raanana",
+    "name": "Zarchin"
+  },
+  {
+    "code": "ZCP",
+    "region": null,
+    "country": null,
+    "subdivision": "Henan Sheng",
+    "city": "Zhengzhou",
+    "name": "Crowne Plaza, Zhengzhou"
+  },
+  {
+    "code": "ZCW",
+    "region": "EMEA",
+    "country": "Switzerland",
+    "subdivision": "Zurich",
+    "city": "Zurich",
+    "name": "ZCW, Zurich"
+  },
+  {
+    "code": "ZJG",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Shanghai Shi",
+    "city": "Shanghai",
+    "name": "Zhang Jiang HTP, Shanghai"
+  },
+  {
+    "code": "ZJM",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Beijing",
+    "name": "Zaojunmiao, Beijing"
+  },
+  {
+    "code": "ZLB",
+    "region": "APAC",
+    "country": "Philippines",
+    "subdivision": "Metro Manila",
+    "city": "Makati City",
+    "name": "Zuellig Building (McAfee)"
+  },
+  {
+    "code": "ZLK",
+    "region": "EMEA",
+    "country": "Switzerland",
+    "subdivision": "Zurich",
+    "city": "Zurich",
+    "name": "Zolliker Street"
+  },
+  {
+    "code": "ZNK",
+    "region": "AMER",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Jose",
+    "name": "Zanker Road"
+  },
+  {
+    "code": "ZPN",
+    "region": "AMER",
+    "country": "Mexico",
+    "subdivision": "Jalisco",
+    "city": "Zapopan",
+    "name": "Zapopan, Guadalajara"
+  },
+  {
+    "code": "ZYM",
+    "region": "APAC",
+    "country": "China",
+    "subdivision": "Beijing Shi",
+    "city": "Chaoyang District",
+    "name": "Zhongyu Mansion"
+  }
+]
