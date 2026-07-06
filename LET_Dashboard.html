@@ -98,6 +98,20 @@ tr:hover td{background:#F0F7FF}
   border-radius:0 8px 8px 0;font-size:13px;margin-bottom:16px}
 .insight strong{color:var(--blue)}
 .note{font-size:11px;color:var(--gray);font-style:italic;margin-top:4px}
+/* Table filter bar */
+.tbl-filter-bar{display:flex;flex-wrap:wrap;gap:10px 12px;align-items:center;padding:12px;background:#F9FAFB;border:1px solid var(--border);border-radius:8px;margin-bottom:12px}
+.tbl-filter-bar input[type=text]{flex:1;min-width:200px;padding:6px 10px;border:1px solid var(--border);border-radius:5px;font-size:12px}
+.tbl-filter-bar input[type=month],.tbl-filter-bar input[type=number]{padding:5px 7px;border:1px solid var(--border);border-radius:5px;font-size:12px}
+.tf-group{display:flex;gap:6px;align-items:center}
+.tf-label{font-size:11px;font-weight:600;color:var(--gray);min-width:50px;text-align:right}
+.tf-multi{position:relative;display:inline-block}
+.tf-multi-btn{padding:5px 10px;border:1px solid var(--border);border-radius:5px;background:#fff;font-size:12px;cursor:pointer;min-width:100px;text-align:left;font-weight:600;color:var(--blue)}
+.tf-multi-btn:hover{border-color:var(--blue)}
+.tf-multi-pop{position:absolute;top:100%;left:0;background:#fff;border:1px solid var(--border);border-radius:6px;margin-top:4px;min-width:180px;box-shadow:0 4px 12px rgba(0,0,0,.15);z-index:1000;max-height:200px;overflow-y:auto;display:none;padding:8px}
+.tf-multi-pop.open{display:block}
+.tf-status-cb{display:flex;align-items:center;gap:6px;padding:4px 0;font-size:12px;cursor:pointer;width:100%}
+.sp-link{color:var(--blue);text-decoration:none;cursor:pointer;font-weight:500}
+.sp-link:hover{text-decoration:underline}
 </style>
 </head>
 <body>
@@ -110,7 +124,7 @@ tr:hover td{background:#F0F7FF}
       <div style="font-size:11px;opacity:.8;margin-top:2px">Global Lab Planner · Intel Lab Efficiency Team · All filters apply simultaneously to all charts</div>
     </div>
   </div>
-  <div class="meta">Refreshed: 2026-07-06 12:00<br><span id="hdr-count"></span></div>
+  <div class="meta">Refreshed: 2026-07-06 14:28<br><span id="hdr-count"></span></div>
 </header>
 
 <div class="layout">
@@ -713,6 +727,32 @@ tr:hover td{background:#F0F7FF}
 
   <div class="section-title">📋 Request Detail Table <span style="font-size:11px;font-weight:400;color:var(--gray)">(click column header to sort)</span></div>
   <div class="card">
+    <div class="tbl-filter-bar">
+      <input type="text" id="tf-search" placeholder="🔍 Search ID, title, planner, BU…" oninput="renderTable(filteredData)">
+      <div class="tf-group">
+        <label class="tf-label">Status:</label>
+        <div class="tf-multi" id="tf-status-wrap">
+          <button class="tf-multi-btn" id="tf-status-btn" onclick="toggleStatusDropdown(event)">All ▾</button>
+          <div class="tf-multi-pop" id="tf-status-pop"></div>
+        </div>
+      </div>
+      <div class="tf-group">
+        <label class="tf-label">Sub:</label>
+        <input type="month" id="tf-sub-from" placeholder="From" oninput="renderTable(filteredData)">
+        <input type="month" id="tf-sub-to" placeholder="To" oninput="renderTable(filteredData)">
+      </div>
+      <div class="tf-group">
+        <label class="tf-label">Close:</label>
+        <input type="month" id="tf-close-from" placeholder="From" oninput="renderTable(filteredData)">
+        <input type="month" id="tf-close-to" placeholder="To" oninput="renderTable(filteredData)">
+      </div>
+      <div class="tf-group">
+        <label class="tf-label">Days Open:</label>
+        <input type="number" id="tf-days-min" placeholder="Min" min="0" style="width:70px" oninput="renderTable(filteredData)">
+        <input type="number" id="tf-days-max" placeholder="Max" min="0" style="width:70px" oninput="renderTable(filteredData)">
+      </div>
+      <button style="padding:6px 14px;font-size:12px;background:var(--blue);color:#fff;border:none;border-radius:6px;cursor:pointer;font-weight:600" onclick="clearTableFilters()">↺ Reset</button>
+    </div>
     <div class="tbl-wrap">
       <table id="detail-table">
         <thead><tr>
@@ -736,7 +776,7 @@ tr:hover td{background:#F0F7FF}
   </div>
 
   <div style="text-align:center;padding:16px;font-size:11px;color:var(--gray)">
-    Intel LET Lab Space Dashboard · 2026-07-06 12:00 · Data: SharePoint LET Lab Space Request/Release
+    Intel LET Lab Space Dashboard · 2026-07-06 14:28 · Data: SharePoint LET Lab Space Request/Release
   </div>
 </main>
 </div>
@@ -1184,29 +1224,103 @@ function renderSiteFrom(returns) {
     scales:{ y:{ grid:{color:GRIDCOLOR}, beginAtZero:true }, x:{grid:{display:false}} } } });
 }
 
+// ── TABLE FILTERING ────────────────────────────────────────
+function escapeHtml(text) {
+  if (!text) return '';
+  const map = {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'};
+  return String(text).replace(/[&<>"']/g, m => map[m]);
+}
+
+function getTableFilters() {
+  const q = (document.getElementById('tf-search')?.value || '').trim().toLowerCase();
+  const sf = document.getElementById('tf-sub-from')?.value || '';
+  const st = document.getElementById('tf-sub-to')?.value   || '';
+  const cf = document.getElementById('tf-close-from')?.value || '';
+  const ct = document.getElementById('tf-close-to')?.value   || '';
+  const dmin = parseInt(document.getElementById('tf-days-min')?.value);
+  const dmax = parseInt(document.getElementById('tf-days-max')?.value);
+  const statuses = [...document.querySelectorAll('.tf-status-cb:checked')].map(e=>e.value);
+  return { q, sf, st, cf, ct, dmin, dmax, statuses };
+}
+
+function applyTableFilters(rows) {
+  const tf = getTableFilters();
+  return rows.filter(r => {
+    if (tf.q) {
+      const hay = (r.id+' '+r.title+' '+r.planner+' '+r.bu).toLowerCase();
+      if (!hay.includes(tf.q)) return false;
+    }
+    if (tf.statuses.length && !tf.statuses.includes(r.status)) return false;
+    if (tf.sf && (!r.ym || r.ym < tf.sf)) return false;
+    if (tf.st && (!r.ym || r.ym > tf.st)) return false;
+    if (tf.cf && (!r.ym_close || r.ym_close < tf.cf)) return false;
+    if (tf.ct && (!r.ym_close || r.ym_close > tf.ct)) return false;
+    if (!isNaN(tf.dmin) && (r.days_open||0) < tf.dmin) return false;
+    if (!isNaN(tf.dmax) && (r.days_open||0) > tf.dmax) return false;
+    return true;
+  });
+}
+
+function refreshStatusBtnLabel() {
+  const btn = document.getElementById('tf-status-btn');
+  if (!btn) return;
+  const cbs = [...document.querySelectorAll('.tf-status-cb')];
+  const checkedVals = cbs.filter(c=>c.checked).map(c=>c.value);
+  if (checkedVals.length === 0 || checkedVals.length === cbs.length) {
+    btn.textContent = 'All ▾';
+  } else if (checkedVals.length === 1) {
+    btn.textContent = `${checkedVals[0]} ▾`;
+  } else {
+    btn.textContent = `${checkedVals.length} selected ▾`;
+  }
+}
+
+function toggleStatusDropdown(e) {
+  if (e) e.stopPropagation();
+  document.getElementById('tf-status-pop').classList.toggle('open');
+}
+
+function clearTableFilters(rerender) {
+  ['tf-search','tf-sub-from','tf-sub-to','tf-close-from','tf-close-to','tf-days-min','tf-days-max']
+    .forEach(id => { const el = document.getElementById(id); if (el) el.value = ''; });
+  const defaults = new Set(['Open/Pending', 'Hold']);
+  document.querySelectorAll('.tf-status-cb').forEach(cb => cb.checked = defaults.has(cb.value));
+  refreshStatusBtnLabel();
+  if (rerender !== false) renderTable(filteredData);
+}
+
 function renderTable(d) {
-  const sorted = [...d].sort((a,b) => {
+  const filtered = applyTableFilters(d);
+  const sorted = [...filtered].sort((a,b) => {
     let av=a[sortKey]??'', bv=b[sortKey]??'';
     if (typeof av==='number') return sortDir*(av-bv);
     return sortDir*String(av).localeCompare(String(bv));
   });
   const show = sorted.slice(0,200);
-  document.getElementById('tbl-body').innerHTML = show.map(r => `<tr>
-    <td><strong>${r.id}</strong></td>
-    <td style="max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${r.title}">${r.title}</td>
-    <td>${badge(r.status)}</td>
-    <td>${r.bu}</td>
-    <td style="text-align:right">${r.sqft_req>0?r.sqft_req.toLocaleString():'—'}</td>
-    <td style="text-align:right;color:${(r.sqft_asn>0&&(r.year_close||r.year||0)>=2022)?'#00A86B':'#CCC'}">${r.sqft_asn>0?r.sqft_asn.toLocaleString():'—'}</td>
-    <td>${r.planner}</td>
-    <td><span style="font-size:10px;color:${r.touch==='High Touch'?'#CC3333':'#00A86B'}">${r.touch||'—'}</span></td>
-    <td>${r.ym||'—'}</td>
-    <td style="color:var(--gray)">${r.ym_close||'—'}</td>
-    <td style="text-align:center">${r.quarter?'Q'+r.quarter:'—'}</td>
-    <td style="text-align:right">${r.days_open>0?r.days_open:'—'}</td>
-  </tr>`).join('');
+  document.getElementById('tbl-body').innerHTML = show.map(r => {
+    const idCell    = r.web_url
+      ? `<a class="sp-link" href="${escapeHtml(r.web_url)}" target="_blank" rel="noopener" title="Open in SharePoint">${escapeHtml(r.id)}</a>`
+      : `<strong>${escapeHtml(r.id)}</strong>`;
+    const titleCell = r.web_url
+      ? `<a class="sp-link" href="${escapeHtml(r.web_url)}" target="_blank" rel="noopener" title="Open in SharePoint">${escapeHtml(r.title)}</a>`
+      : escapeHtml(r.title);
+    return `<tr>
+      <td>${idCell}</td>
+      <td style="max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${escapeHtml(r.title)}">${titleCell}</td>
+      <td>${badge(r.status)}</td>
+      <td>${escapeHtml(r.bu)}</td>
+      <td style="text-align:right">${r.sqft_req>0?r.sqft_req.toLocaleString():'—'}</td>
+      <td style="text-align:right;color:${(r.sqft_asn>0&&(r.year_close||r.year||0)>=2022)?'#00A86B':'#CCC'}">${r.sqft_asn>0?r.sqft_asn.toLocaleString():'—'}</td>
+      <td>${escapeHtml(r.planner)}</td>
+      <td><span style="font-size:10px;color:${r.touch==='High Touch'?'#CC3333':'#00A86B'}">${r.touch||'—'}</span></td>
+      <td>${r.ym||'—'}</td>
+      <td style="color:var(--gray)">${r.ym_close||'—'}</td>
+      <td style="text-align:center">${r.quarter?'Q'+r.quarter:'—'}</td>
+      <td style="text-align:right">${r.days_open>0?r.days_open:'—'}</td>
+    </tr>`;
+  }).join('');
   document.getElementById('tbl-footer').textContent =
-    `Showing ${show.length} of ${d.length} filtered records (max 200). Use filters to narrow.`;
+    `Showing ${show.length} of ${filtered.length} filtered, ${d.length} total (max 200). Use filters to narrow.`;
 }
 
 function sortTable(key) {
@@ -1223,6 +1337,25 @@ function sortTable(key) {
     .then(data => {
       ALL_DATA = data;
       filteredData = [...ALL_DATA];
+      
+      // Populate status filter dropdown
+      const statusSet = new Set(ALL_DATA.map(r => r.status).filter(s => s));
+      const statuses = Array.from(statusSet).sort();
+      const statusPop = document.getElementById('tf-status-pop');
+      if (statusPop) {
+        statusPop.innerHTML = statuses.map(s => `
+          <label class="tf-status-cb">
+            <input type="checkbox" class="tf-status-cb" value="${escapeHtml(s)}" checked onchange="renderTable(filteredData)">
+            <span>${escapeHtml(s)}</span>
+          </label>
+        `).join('');
+      }
+      refreshStatusBtnLabel();
+      // Set default table filters to show only Open/Pending + Hold
+      const defaults = new Set(['Open/Pending', 'Hold']);
+      document.querySelectorAll('.tf-status-cb').forEach(cb => cb.checked = defaults.has(cb.value));
+      refreshStatusBtnLabel();
+      
       const _cy = new Date().getFullYear();
       document.getElementById('f-year-from').value = _cy;
       document.getElementById('f-year-to').value   = _cy;
