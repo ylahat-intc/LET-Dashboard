@@ -57,6 +57,7 @@ FIELD_MAP = {
     "field_30": "Workstations",
     "field_31": "SqFtAssigned",
     "field_32": "RoomAssigned",
+    "Actual_x0020_Return_x0020_sqft": "ActualReturnSqft",
     # Net Zero / Growth classification (added 2025-12, populated for newer requests only)
     "LETClassification": "LETClassification",
 }

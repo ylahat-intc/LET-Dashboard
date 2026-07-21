@@ -239,6 +239,7 @@ def load_and_clean():
         sqft_req = parse_sqft(g("SqFtRequested", "field_13"))
         # field_30 = workstations (small count), field_31 = SqFtAssigned (actual sqft)
         sqft_asn = parse_sqft(g("SqFtAssigned", "field_31"))
+        sqft_ret_act = parse_sqft(g("ActualReturnSqft", "Actual_x0020_Return_x0020_sqft"))
 
         days_open = 0
         if date_req_str and date_close_str:
@@ -293,6 +294,7 @@ def load_and_clean():
             "group":        str(g("Group", "field_8") or "").strip()[:30],
             "sqft_req":     sqft_req,
             "sqft_asn":     sqft_asn,
+            "sqft_ret_act": sqft_ret_act,
             "planner":      planner,
             "touch":        str(g("Touch", "field_17") or "").strip(),
             "permanent":    str(g("Permanent", "field_9") or "").strip(),
@@ -665,7 +667,8 @@ tr:hover td{{background:#F0F7FF}}
       <b>Auto rule:</b><br>
       • Pre-2022 → SqFt <b>Requested</b><br>
       • 2022 onward → SqFt <b>Assigned</b><br>
-      (falls back to Requested if Assigned missing)
+      (falls back to Requested if Assigned missing)<br>
+      • Lab Return → use <b>Actual Return sqft</b> (falls back to Requested)
     </div>
   </div>
 
@@ -787,6 +790,7 @@ tr:hover td{{background:#F0F7FF}}
           <th onclick="sortTable('trade_type')" title="Trade Net Zero / Growth classification">Trade ↕</th>
           <th onclick="sortTable('sqft_req')" style="text-align:right">SqFt Req ↕</th>
           <th onclick="sortTable('sqft_asn')" style="text-align:right" title="Used for cost calc 2022+">SqFt Asn ↕</th>
+          <th onclick="sortTable('sqft_ret_act')" style="text-align:right" title="Used for Lab Return KPI (fallback to SqFt Req when missing)">SqFt Ret Act ↕</th>
           <th onclick="sortTable('cost_avoided')" style="text-align:right" title="Cost avoided (Reuse only): 2022+ uses Assigned sqft, pre-2022 uses Requested. Both × ${COST_PER_SQFT}/sqft">💰 Cost ↕</th>
           <th onclick="sortTable('planner')">Planner ↕</th>
           <th onclick="sortTable('ym')">Submitted ↕</th>
@@ -1043,6 +1047,12 @@ function sqftForCost(r) {{
   return r.sqft_req;
 }}
 
+function sqftForReturn(r) {{
+  const actual = parseNum(r.sqft_ret_act);
+  if (actual !== 0) return Math.abs(actual);
+  return Math.abs(parseNum(r.sqft_req));
+}}
+
 // ── RENDER ALL ────────────────────────────────────────────
 function renderAll() {{
   const d = filteredData;
@@ -1056,7 +1066,7 @@ function renderAll() {{
   const sqftModeLabel = 'Pre-2022: Requested · 2022+: Assigned';
 
   const sqftReused   = reuse.reduce((s,r)=>s+Math.max(sqftForCost(r),0), 0);
-  const sqftReturned = returns.reduce((s,r)=>s+Math.max(parseNum(r.sqft_req),0), 0);
+  const sqftReturned = returns.reduce((s,r)=>s+Math.max(sqftForReturn(r),0), 0);
   const costAvoided  = sqftReused * COST_SQFT;
   const reuseRate    = closed.length ? (reuse.length/closed.length*100).toFixed(1)+'%' : '0%';
 
@@ -1399,6 +1409,7 @@ function renderTable(d) {{
       <td style="text-align:center">${{tradeCell}}</td>
       <td style="text-align:right">${{r.sqft_req>0?r.sqft_req.toLocaleString():'—'}}</td>
       <td style="text-align:right;color:${{(r.sqft_asn>0&&(r.year_close||r.year||0)>=2022)?'#00A86B':'#CCC'}}">${{r.sqft_asn>0?r.sqft_asn.toLocaleString():'—'}}</td>
+      <td style="text-align:right;color:${{r.sqft_ret_act>0?'#00A86B':'#CCC'}}">${{r.sqft_ret_act>0?r.sqft_ret_act.toLocaleString():'—'}}</td>
       <td style="text-align:right">${{costCell}}</td>
       <td>${{escapeHtml(r.planner)}}</td>
       <td>${{r.ym||'—'}}</td>
