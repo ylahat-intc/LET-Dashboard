@@ -1,7 +1,7 @@
 # LET Lab Space Dashboard — Project Documentation
 
 **Owner:** Yariv Lahat, Global Lab Planner, Intel REWS/Labs SME  
-**Last Updated:** July 6, 2026  
+**Last Updated:** July 21, 2026  
 **Project Folder:** `C:\Users\ylahat\OneDrive - Intel Corporation\Documents\CS GLP\Dev soft project\LET sharepoint\`  
 **Live Dashboard:** https://ylahat-intc.github.io/LET-Dashboard/LET_Dashboard.html
 
@@ -60,6 +60,7 @@ As Intel's sole Global Lab Planner, Yariv tracks:
 | `field_30` | Workstations | Small count, NOT sqft |
 | `field_31` | SqFtAssigned | Actual assigned sqft (confirmed) |
 | `field_32` | RoomAssigned | |
+| `Actual_x0020_Return_x0020_sqft` | ActualReturnSqft | Actual released sqft for Lab Return workflow (new) |
 
 ---
 
@@ -70,6 +71,14 @@ As Intel's sole Global Lab Planner, Yariv tracks:
 - **2022+ records:** Use `SqFtAssigned` (field_31), fallback to Requested if blank
 - **Cost grouped by:** Close date year (when value was realized, not when requested)
 - Implemented in `generate_dashboard.py` as `sqftForCost(r)` JavaScript function
+
+### Lab Return SqFt Logic (July 2026 update)
+
+- Dashboard field priority for return KPI:
+  1. `ActualReturnSqft` (`Actual_x0020_Return_x0020_sqft`) when present
+  2. fallback to `SqFtRequested`
+- Return KPI (`🏭 SqFt Returned`) now sums **absolute sqft per row** to avoid sign-canceling from mixed legacy data entry conventions.
+- Implemented in `generate_dashboard.py` as `sqftForReturn(r)`.
 
 ---
 
@@ -178,11 +187,11 @@ Click to filter instantly — can combine multiple: All, Open/Active, Closed, Re
 - **Trade Net Zero vs Growth** (shown only when classified records exist) — doughnut + SqFt bar, tracked since 2025-12-02
 
 ### KPI Cards (all filter-responsive)
-💰 Cost Avoided · ♻️ Reuse Rate · 📐 SqFt Reused · 🏗️ Capital/CRE · 📋 Total · ⏱️ Avg Days · ⚡ High Touch
+💰 Cost Avoided · ♻️ Reuse Rate · 📐 SqFt Reused · 🏭 SqFt Returned · 🏗️ Capital/CRE · 📋 Total · ⏱️ Avg Days · ⚡ High Touch
 
 ### Bottom Table
 - **Per-table filters** (independent of sidebar): free-text search, status dropdown, submit/close date ranges, days-open min/max, Reset button
-- **Columns:** ID · Title · Status · BU · **Region** · **Site** · **Trade** · SqFt Req · SqFt Asn · **💰 Cost** · Planner · Submitted · Closed · Q · Days
+- **Columns:** ID · Title · Status · BU · **Region** · **Site** · **Trade** · SqFt Req · SqFt Asn · SqFt Ret Act · **💰 Cost** · Planner · Submitted · Closed · Q · Days
 - **💰 Cost column** (Reuse rows only): 2022+ uses Assigned sqft, pre-2022 uses Requested. All × $692/sqft. Hover tooltip shows the exact sqft field used.
   - Example: Req 2485 → 580 sqft × $692 = **$401,360** (used Assigned, not the 10,000 Requested)
 - **ID and Title are clickable links** → open the specific item in SharePoint via DispForm.aspx
@@ -196,6 +205,8 @@ Every build runs sanity checks and shows a **green (✅ clean) or amber/red (⚠
 - `sqft_asn` should not be >4× `sqft_req`
 
 As of July 2026: **0 errors, 26 warnings** (all are legacy data gaps in older records).
+
+> Note: Lab Return history includes mixed sign entry (`+/-`) in `SqFtRequested`. KPI now uses absolute-per-row logic to prevent cancellation.
 
 ### Removed (June 2026)
 - **Touch** KPI / donut / sidebar filter / table column — requestors not using it consistently; replaced with Region.
@@ -270,6 +281,7 @@ $env:PYTHONUTF8 = '1'; py generate_dashboard.py
 - **CPA field:** SharePoint uses `"YES"`/`"NO"` (not `TRUE`/`FALSE` like old system)
 - **field_30 ≠ SqFtAssigned:** field_30 = workstation count (small integers). field_31 = SqFtAssigned (confirmed from live data)
 - **Status normalization:** "Closed: Filled with existing lab space" → counted as Reuse; two variants of "Withdrawn" both handled
+- **Lab Return sign convention:** old records may have either positive or negative `SqFtRequested`; treat return volume as absolute sqft
 
 ---
 
@@ -338,6 +350,12 @@ Building / campus / site codes in SharePoint are resolved to a Region (AMER / AP
 ---
 
 ## Change Log
+
+### July 21, 2026
+- Added SharePoint field integration: `Actual_x0020_Return_x0020_sqft` (`ActualReturnSqft`)
+- Dashboard return KPI now uses `ActualReturnSqft` first, then `SqFtRequested` fallback
+- Return KPI normalization updated to absolute-per-row summation to avoid mixed-sign cancellation
+- Bottom table now includes `SqFt Ret Act` column
 
 ### June 29, 2026
 - **Region** support end-to-end: sidebar filter, bar chart, table column, derived from LaMP + manual overrides (`build_region_map.py`, `site_region_map.json`)

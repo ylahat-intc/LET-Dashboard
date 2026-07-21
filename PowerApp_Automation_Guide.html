@@ -22,7 +22,7 @@ ul li{margin:4px 0}
 </head>
 <body>
 <h1>LET Power App &amp; Automation Guide</h1>
-<p><b>Owner:</b> Yariv Lahat, Global Lab Planner, Intel CS/GLP &nbsp;|&nbsp; <b>Last Updated:</b> June 2026</p>
+<p><b>Owner:</b> Yariv Lahat, Global Lab Planner, Intel CS/GLP &nbsp;|&nbsp; <b>Last Updated:</b> July 2026</p>
 
 <h2>SharePoint Lists</h2>
 <table>
@@ -47,6 +47,7 @@ Do NOT use make.powerapps.com &ldquo;My Apps&rdquo; &mdash; the form only appear
 <tr><td><code>BURepApprovalDate</code></td><td>Date</td><td>Date of approval/rejection</td></tr>
 <tr><td><code>OverrideBURepApproval</code></td><td>Yes/No</td><td>Admin override flag</td></tr>
 <tr><td><code>NetGrowthEmailSent</code></td><td>Yes/No</td><td>Prevents duplicate Net Growth emails</td></tr>
+<tr><td><code>Actual Return sqft</code> (<code>Actual_x0020_Return_x0020_sqft</code>)</td><td>Number</td><td>Actual released sqft for Lab Return closure and dashboard KPI</td></tr>
 </table>
 
 <h2>Power App Customizations</h2>
@@ -62,7 +63,17 @@ Do NOT use make.powerapps.com &ldquo;My Apps&rdquo; &mdash; the form only appear
 </table>
 <div class="warn">&#9888; Choice fields MUST use <code>{Value: ...}</code> record format in the DataCard Update property. Plain text causes silent save failures with no error shown.</div>
 
-<h3>2. Save Button BU Rep Gating</h3>
+<h3>2. Actual Return SqFt DataCard</h3>
+<p>Add the field to the SharePoint form and make sure the DataCard saves a numeric value.</p>
+<table>
+<tr><th>Property</th><th>Value</th></tr>
+<tr><td>DataCard field</td><td><code>Actual Return sqft</code></td></tr>
+<tr><td>Control format</td><td><code>Number</code></td></tr>
+<tr><td><b>DataCard Update</b></td><td><code>Value(DataCardValue_ActualReturn.Text)</code> (use your control name)</td></tr>
+</table>
+<div class="warn">&#9888; For Lab Return closures, use the <b>actual released area</b>. Dashboard treats return sqft as absolute volume.</div>
+
+<h3>3. Save Button BU Rep Gating</h3>
 <p>Both save buttons (SaveButton1 and Button2) restrict saving to the mapped BU rep/delegate or yariv.lahat@intel.com.</p>
 
 <h2>BU Reps List Structure</h2>
@@ -119,6 +130,7 @@ Do NOT use make.powerapps.com &ldquo;My Apps&rdquo; &mdash; the form only appear
 <li>BU Rep Approval Status: <code>triggerOutputs()?['body/BURepApprovalStatus/Value']</code></li>
 <li>BU Rep Approver: <code>triggerOutputs()?['body/BURepApproverEmail']</code></li>
 <li>BU Rep Approval Date: <code>if(empty(...),'Pending',formatDateTime(...,'yyyy-MM-dd'))</code></li>
+<li>Actual Return sqft: <code>coalesce(outputs('Get_item')?['body/Actual_x0020_Return_x0020_sqft'], outputs('Get_item')?['body/field_13'], 0)</code></li>
 </ul>
 
 <h2>Common Gotchas &amp; Fixes</h2>
@@ -136,6 +148,7 @@ Do NOT use make.powerapps.com &ldquo;My Apps&rdquo; &mdash; the form only appear
 <tr><td>SharePoint Yes/No in flow</td><td>Compare to <code>true</code>/<code>false</code> not "Yes"/"No"</td></tr>
 <tr><td>OData filter with special chars (SPE &amp;)</td><td>Use <code>concat('field_1 eq ''', outputs('Get_item')?['body/field_7'], '''')</code></td></tr>
 <tr><td>For each input must be array</td><td>Don't use <code>first()</code> as For each input &mdash; pass full array, use <code>item()?['field']</code> inside</td></tr>
+<tr><td>Lab Return sqft looks wrong in KPI</td><td>Check old rows for mixed sign in <code>SqFtRequested</code>. New flow should populate <code>Actual Return sqft</code> so dashboard uses actual value first.</td></tr>
 </table>
 
 <h2>Future Tasks</h2>
@@ -147,6 +160,6 @@ Do NOT use make.powerapps.com &ldquo;My Apps&rdquo; &mdash; the form only appear
 </ul>
 
 <hr>
-<p style="color:#888;font-size:11px">LET Power App &amp; Automation Guide &mdash; Yariv Lahat, Intel CS/GLP &mdash; Last updated: June 2026</p>
+<p style="color:#888;font-size:11px">LET Power App &amp; Automation Guide &mdash; Yariv Lahat, Intel CS/GLP &mdash; Last updated: July 2026</p>
 </body>
 </html>
